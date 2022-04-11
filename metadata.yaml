@@ -3,13 +3,13 @@ composer:
   first: Johann Georg
 title: Missa
 genre: mass
-scoring: S, A, T, B (coro), 2 clno (D), 2 trb, timp (D–A), 2 vl, b, org
+scoring: S, A, T, B (coro), 2 clno (D), 2 tr (D), timp (D–A), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
     siglum: A-Wn
     shelfmark: HK.5/I
-    url:  https://data.onb.ac.at/rec/AC13915783
+    url: https://data.onb.ac.at/rec/AC13915783
     license: public domain
     principal: true
 imslp:

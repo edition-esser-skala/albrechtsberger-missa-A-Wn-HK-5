@@ -11,25 +11,19 @@
     \score {
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "D" ""
             % \transpose c d
             \partCombine \KyrieClarinoI \KyrieClarinoII
           >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Trombone"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \KyrieTromboneI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \KyrieTromboneII
-            }
-          >>
+          \new Staff {
+            \set Staff.instrumentName = \transposedName "Tromba I" "D" ""
+            % \transpose c d
+            \KyrieTrombaI
+          }
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimp "D" "" "A" ""
+          \set Staff.instrumentName = \markup \center-column { "Tromba II," \transposedTimp "D" "" "A" "" }
           % \transpose c s
           \KyrieTimpani
         }
