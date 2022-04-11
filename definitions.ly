@@ -8,6 +8,9 @@
 
 tempoKyrie = \tempoMarkup "Adagio"
   tempoKyrieB = \tempoMarkup "Allegro maestoso"
+tempoGloria = \tempoMarkup "Allegro non troppo"
+  tempoQuiTollis = \tempoMarkup "Adagio"
+  tempoQuoniam = \tempoMarkup "Allegro"
 
 
 \include "notes/clno1.ly"
