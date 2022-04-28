@@ -296,3 +296,69 @@ GloriaBassFigures = \figuremode {
   r
   r %97 finis
 }
+
+GradualeOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoGraduale
+    \partial 8 r8 \mvTr d16\fE-\tutti fis32 a d16 d d, d' cis, cis' h, d32 fis h16 h h, h' a, a'
+    g, h32 d g16 g g, g' fis, fis' g, g' fis, fis' e, e' a, a'
+    d, e32 fis g a h cis d16 cis32 h a g fis e d16 fis32 a d16 d d, d' cis, cis'
+    h, d32 fis h16 h d, h' dis, h' e, gis32 h e16 e e, e' gis, e'
+    a,, cis32 e a16 a a, a' cis, a' d, fis32 a d16 d d, d' h, h' %5
+    gis, h32 e gis16 gis a, cis32 e a16 a d, d32 cis h16 d e d e e,
+    a h32 cis d e fis gis a8 a, gis16 a32 h cis d e fis gis8 gis,
+    a16 a' a a cis, a' a a d, d' d d e8 e,
+    a,16 h32 cis d e fis gis a8 r a,16 cis32 e a16 a e gis32 h e16 e
+    a,,16 cis32 e a16 a e gis32 h e16 e a,,16 cis32 e a16 a e gis32 h e16 e %10
+    a,, cis32 e a16 a cis, e32 a cis16 cis d, d' cis, cis' h, h' e,, e'
+    a, h32 cis d e fis gis a16 g fis e d fis32 a d16 d a, cis32 e a16 a
+    d, fis32 a d16 d a, cis32 e a16 a d, fis32 a d16 d a, cis32 e a16 a
+    d, fis32 a d16 d fis,, a32 d fis16 fis g g, fis fis' e e a, a
+    d fis32 a d16 d fis,, a32 d fis16 fis g, h32 d g16 g gis, h32 e gis16 gis %15
+    a, cis32 e a16 a cis, e32 a cis16 cis d d,32 e fis16 d g e a a,
+    d e32 fis g a h cis d8 r \mvTr d,16\p-\solo fis32 g a16 d, cis e32 d cis16 a
+    d fis32 g a16 d, cis e32 d cis16 a d fis32 g a16 d, cis e32 d cis16 a
+    d fis32 g a16 d, cis e32 d cis16 a d fis32 a d16 d fis,, a32 d fis16 fis
+    g, g' fis, fis' e8 a, d16 fis32 a d16 d \mvTr fis,,\f-\tutti a32 d fis16 fis %20
+    g, h32 d g16 g gis, h32 e gis16 gis a, cis32 e a16 a cis, e32 a cis16 cis
+    d, fis32 a d16 d cis, e32 a cis16 cis d d,32 e fis16 d g e a a,
+    d e32 fis g a h cis d8 d, cis16 d32 e fis g a h cis8 cis,
+    d16 d' d d fis, d' d d g,, g' g g a8 a,
+    d16 e32 fis g a h cis d8 d, cis16 d32 e fis g a h cis8 cis, %25
+    d16 d' d d fis, d' d d g,, g' g g a8 a,
+    d16 e32 fis g a h cis d8 d d16 cis32 h a g fis e d8 d
+    d4 r r2\fermata \bar "|." %28 finis
+  }
+}
+
+GradualeBassFigures = \figuremode {
+  r8 r4. <\t>8 <5>4. <6 _!>8
+  r4. <6 5!>4 <6>8 <7> <7 _+>
+  <3>4... \bassFigureExtendersOn q32 \bassFigureExtendersOff r4. <6\\>8
+  r4. <6 5!>8 <[_+]>4. <6 5>8
+  r4. <6 5!>8 \bo <[9]>4 \bc <[8]>8 <5> %5
+  <6 5>2 <6 5>4 <_+>
+  r2 <6 5>
+  r4 <6> <5>8 <6> <6 4> <5 _+>
+  <3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff r r4 <7 _+>
+  r q r q %10
+  r <6>4. q8 <7> <7 _+>
+  <3>4.. \bassFigureExtendersOn q16 \bassFigureExtendersOff r4 <7>
+  r q r q
+  r <6>8 <5!> <3> <6> <7> q
+  r4 <6 5!>2 <6 5>4 %15
+  <[_+]> <6 5!>2 <6 5>4
+  r2. <6 5>4
+  r q2 q4
+  r q2 <6>8 <5!>
+  r <6> <7> q r4 <6 5!> %20
+  r <6 5>2 <6 5!>4
+  r <6 5>2 q4
+  r2 q
+  r4 <6> <5>8 <6> <6 4> <5 3>
+  r2 <6 5> %25
+  r4 <6> <5>8 <6> <6 4> <5 3>
+  r1
+  r %28 finis
+}

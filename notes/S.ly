@@ -275,3 +275,70 @@ GloriaSopranoLyrics = \lyricmode {
   a --
   men. %97 finis
 }
+
+GradualeSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoGraduale
+    \partial 8 \mvTr a'8\fE^\tuttiE d4 d8 d d4 d8 d
+    d4 d8 d d d d([ cis)]
+    d4 r r8 fis fis e16 fis
+    d4 h8 h h4 h
+    r8 a e'2 d8 d %5
+    d4 cis8 cis h2
+    a4 r r2
+    R1
+    r4 r8 e cis'4 d8 h16([ gis)]
+    a8 e r e cis'4 d8 h16([ gis)] %10
+    a8 e e' a, fis' e16 e d4
+    cis r8 a fis'4 g!8 e16([ cis)]
+    d8 a r a fis'4 g8 e16([ cis)]
+    d8 a d c h a16 a g4
+    fis c'8. c16 h8 h d8. d16 %15
+    cis8 cis g'!8. g16 fis8 fis16 fis e8. e16
+    d4 r r r8 a\p
+    fis'4 g8 e16([ cis)] d8 a r a
+    fis'4 g8 e16([ cis)]
+    d8 a d c
+    h a16 a g4 fis c'8.\f c16
+    h8 h d8. d16 cis8 cis g'8. g16
+    fis8 fis g8. g16 fis8 fis16 fis e8.\trill e16
+    d4 r r2
+    r4 d8. d16 d8 e16 e d8 cis
+    d4 r r2
+    r4 d8. d16 d8 e16 e d8 cis
+    d4 d8 d d2
+    d,4 r r2\fermata \bar "|."
+  }
+}
+
+GradualeSopranoLyrics = \lyricmode {
+  Pa -- ra -- tum cor me -- um, pa --
+  ra -- tum cor me -- um, De --
+  us, pa -- ra -- tum cor
+  me -- um, cor me -- um,
+  pa -- ra -- tum cor %5
+  me -- um, cor me --
+  um:
+
+  Can -- ta -- bo et
+  psal -- lam, can -- ta -- bo et %10
+  psal -- lam ti -- bi glo -- ri -- a me --
+  a, can -- ta -- bo et
+  psal -- lam, can -- ta -- bo et
+  psal -- lam ti -- bi glo -- ri -- a me --
+  a, al -- le -- lu -- ia, al -- le -- %15
+  lu -- ia, al -- le -- lu -- ia, al -- le -- lu --
+  ia. Can --
+  ta -- bo et psal -- lam, can --
+  ta -- bo et psal -- lam ti -- bi
+  glo -- ri -- a me -- a, al -- le -- %20
+  lu -- ia, al -- le -- lu -- ia, al -- le --
+  lu -- ia, al -- le -- lu -- ia, al -- le -- lu --
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, %25
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, al -- le -- lu --
+  ia. %28 finis
+}

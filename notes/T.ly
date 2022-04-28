@@ -275,3 +275,69 @@ GloriaTenoreLyrics = \lyricmode {
   a --
   men. %97 finis
 }
+
+GradualeTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoGraduale
+    \partial 8 \mvTr a8\fE^\tuttiE a4 a8 a h4 h8 c
+    h4 h8 c h a g([ a)]
+    a4 r r2
+    r2 r8 e' e d16 e
+    cis4 cis8 a a4 a8 d %5
+    e4 e8 e fis4( e8.[ d16)]
+    cis4 r r2
+    R1
+    r2 r4 r8 e,
+    cis'4 d8 h16([ gis)] a8 e r e' %10
+    cis cis a a a cis16 e fis8([ e)]
+    e4 r8 a, fis'4 g!8 e16([ cis)]
+    d8 a r a fis'4 g8 e16([ cis)]
+    d8 d a a h d16 d g,8([ a)]
+    a4 d8. d16 d8 d e8. e16 %15
+    e8 e e8. e16 d8 d16 d d8 cis
+    d4 r r r8 a\pE
+    fis'4 g8 e16([ cis)] d8 a r a
+    fis'4 g8 e16([ cis)] d8 d a a
+    h d16 d g,8([ a)] a4 d8.\f d16 %20
+    d8 d e8. e16 e8 e e8. e16
+    d8 d e8. e16 d8 d16 d d8 cis
+    d4 r r2
+    r4 d8. d16 d8 h16 h a8. a16
+    a4 r r2 %25
+    r4 d8. d16 d8 h16 h a8. a16
+    a4 d8 d d2
+    d,4 r r2\fermata \bar "|." %28 finis
+  }
+}
+
+GradualeTenoreLyrics = \lyricmode {
+  Pa -- ra -- tum cor me -- um, pa --
+  ra -- tum cor me -- um, De --
+  us,
+  pa -- ra -- tum cor
+  me -- um, pa -- ra -- tum cor %5
+  me -- um, cor me --
+  um:
+
+  Can --
+  ta -- bo et psal -- lam, et %10
+  psal -- lam ti -- bi glo -- ri -- a me --
+  a, can -- ta -- bo et
+  psal -- lam, can -- ta -- bo et
+  psal -- lam ti -- bi glo -- ri -- a me --
+  a, al -- le -- lu -- ia, al -- le -- %15
+  lu -- ia, al -- le -- lu -- ia, al -- le -- lu --
+  ia. Can --
+  ta -- bo et psal -- lam, can --
+  ta -- bo et psal -- lam ti -- bi
+  glo -- ri -- a me -- a, al -- le -- %20
+  lu -- ia, al -- le -- lu -- ia, al -- le --
+  lu -- ia, al -- le -- lu -- ia, al -- le -- lu --
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, %25
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, al -- le -- lu --
+  ia. %28 finis
+}

@@ -11,6 +11,7 @@ tempoKyrie = \tempoMarkup "Adagio"
 tempoGloria = \tempoMarkup "Allegro non troppo"
   tempoQuiTollis = \tempoMarkup "Adagio"
   tempoQuoniam = \tempoMarkup "Allegro"
+tempoGraduale = \tempoMarkup "Andante con moto"
 
 
 \include "notes/clno1.ly"

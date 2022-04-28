@@ -105,3 +105,37 @@ GloriaClarinoI = {
     c2 r4\fermata \bar "|." %97 finis
   }
 }
+
+GradualeClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGraduale
+    \partial 8 r8 c'4\fE r c c8[ e]
+    f4 g a8 g f8. f16
+    e4 e8 e e4 r
+    R1
+    r8 d d d \once \partCombineChords e4 r %5
+    R1
+    d4 r \pao d r
+    d r \pa e8 g4 fis8 \pd
+    g4 r r2
+    R1 %10
+    g4 r8 g \pa g4. fis8 \pd
+    g4 r r r8 d
+    e4 f! e f
+    e r r8 g f4
+    e c8 c16 c c4 \pa d8 d16 d \pd %15
+    d4 f8 f e4 \pa d8 d \pd
+    c4 r r2
+    R1*2
+    r2 r4 \pa c8.\fE c16 %20
+    c4 d8. d16 \pd d4 f
+    e f \pa e8 e d d16 d \pd
+    c4 r8 e f2
+    e4 r r8 f e d16 d
+    c4 r8 e f2 %25
+    e4 r r8 f e d16 d
+    c4 c8 c16 c c4 c8 c16 c
+    c4 r r2\fermata \bar "|." %28 finis
+  }
+}

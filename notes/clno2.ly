@@ -105,3 +105,37 @@ GloriaClarinoII = {
     e2 r4\fermata \bar "|." %97 finis
   }
 }
+
+GradualeClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGraduale
+    \partial 8 r8 e4\fE r e c'8 c
+    c4 c c8 c d8. d16
+    c4 c8 c c4 r
+    R1
+    r8 g g g c,4 r %5
+    R1
+    g'4 r d' r
+    g, r c8 e d d16 d
+    d4 r r2
+    R1 %10
+    d4 r8 d e d c d
+    d4 r r r8 g,
+    c4 d c d
+    c r r8 c d4
+    c c,8 c16 c c4 r %15
+    g' d'8 d c4 r8 g
+    e4 r r2
+    R1*2
+    r2 r4 c'8.\fE c16 %20
+    c4 r g d'
+    c d c8 c4 g16 g
+    e4 r8 c' d2
+    c4 r r8 d c g16 g
+    e4 r8 c' d2 %25
+    c4 r r8 d c g16 g
+    e4 e8 e16 e e4 e8 e16 e
+    e4 r r2\fermata \bar "|." %28 finis
+  }
+}

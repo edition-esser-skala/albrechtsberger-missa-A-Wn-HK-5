@@ -98,3 +98,37 @@ GloriaTrombaI = {
     g2 r4\fermata \bar "|." %97 finis
   }
 }
+
+GradualeTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGraduale
+    \partial 8 r8 g'4\fE r c, r
+    c r r2
+    g'4 g8 g g4 r
+    R1
+    r8 g16 g g8 g g4 r %5
+    R1
+    g4 r r2
+    g4 r r2
+    g4 r r2
+    R1 %10
+    g4 r r2
+    g4 r r2
+    g8 g16 g g8 g g g16 g g8 g
+    g4 r r r8 g16 g
+    g4 r r2 %15
+    g8 g16 g g8 g g4 r8 g16 g
+    g4 r r2
+    R1*2
+    r2 r4 c,8.\fE c16 %20
+    c4 r g' g8 g16 g
+    g8 g g g16 g g4 r8 g16 g
+    g4 r g8 g16 g g8 g
+    g4 r r g8 g16 g
+    g4 r g8 g16 g g8 g %25
+    g4 r r g8 g16 g
+    g4 g8 g16 g g4 g8 g16 g
+    g4 r r2\fermata \bar "|." %28 finis
+  }
+}

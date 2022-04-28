@@ -275,3 +275,69 @@ GloriaBassoLyrics = \lyricmode {
   a --
   men. %97 finis
 }
+
+GradualeBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoGraduale
+    \partial 8 \mvTr a'8\fE^\tuttiE d,4 d8 cis h4 h8 a
+    g4 g'8 fis g fis e([ a,)]
+    d4 r r2
+    r8 h' h a16 h gis4 e
+    r8 a a g16 a fis4 fis8 fis %5
+    gis4 a8 a d,4( e)
+    a, r r2
+    R1
+    r2 r4 r8 e'
+    cis'4 d8 h16([ gis)] a8 e r e %10
+    a a cis, cis d cis16 cis h8([ e)]
+    a,4 r r r8 a
+    fis'4 g!8 e16([ cis)] d8 a r a
+    d d fis fis g fis16 fis e8([ a,)]
+    d4 fis8. fis16 g8 g gis8. gis16 %15
+    a8 a cis8. cis16 d8 fis,16 fis g8 a
+    d,4 r8 a\p fis'4 g8 e16([ cis)]
+    d8 a r a fis'4 g8 e16([ cis)]
+    d8 a r a d d fis fis
+    g fis16 fis e8([ a,)] d4 fis8.\fE fis16 %20
+    g8 g gis8. gis16 a8 a cis8. cis16
+    d8 d cis8. cis16 d8 fis,16 fis g8 a
+    d,4 r r2
+    r4 fis8. fis16 g8 g16 g a8 a,
+    d4 r r2 %25
+    r4 fis8. fis16 g8 g16 g a8 a,
+    d4 d'8 d d2
+    d,4 r r2\fermata \bar "|." %28 finis
+  }
+}
+
+GradualeBassoLyrics = \lyricmode {
+  Pa -- ra -- tum cor me -- um, pa --
+  ra -- tum cor me -- um, De --
+  us,
+  pa -- ra -- tum cor me -- um,
+  pa -- ra -- tum cor me -- um, cor %5
+  me -- um, cor me --
+  um:
+
+  Can --
+  ta -- bo et psal -- lam, et %10
+  psal -- lam ti -- bi glo -- ri -- a me --
+  a, can --
+  ta -- bo et psal -- lam, et
+  psal -- lam ti -- bi glo -- ri -- a me --
+  a, al -- le -- lu -- ia, al -- le -- %15
+  lu -- ia, al -- le -- lu -- ia, al -- le -- lu --
+  ia. Can -- ta -- bo et
+  psal -- lam, can -- ta -- bo et
+  psal -- lam, et psal -- lam ti -- bi
+  glo -- ri -- a me -- a, al -- le -- %20
+  lu -- ia, al -- le -- lu -- ia, al -- le --
+  lu -- ia, al -- le -- lu -- ia, al -- le -- lu --
+  ia,
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, %25
+  al -- le -- lu -- ia, al -- le -- lu --
+  ia, al -- le -- lu --
+  ia. %28 finis
+}

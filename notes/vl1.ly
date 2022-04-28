@@ -153,3 +153,38 @@ GloriaViolinoI = {
     q2 r4\fermata \bar "|." %97 finis
   }
 }
+
+GradualeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoGraduale
+    \partial 8 a''8\fE d16 d, d d d' d, d d d' d, d d d' d, c' d,
+    h' d, d d h' d, c' d, h' d, a' d, g e cis a
+    fis8 <d a' fis'> q q fis'16 a, a a fis' fis, e' fis,
+    d' fis fis fis h h, a'! h, gis' e, e e e' e, d' e,
+    cis' a a a a' a, g' a, fis' a, a a fis' fis, fis fis %5
+    d' e, e e cis' a' a a h, a' a a h, gis' gis gis
+    a,32 cis d e fis gis a h cis h a gis fis e d cis d h cis d e fis gis a h a gis fis e d cis h
+    cis a h cis d e fis gis a gis fis e d cis h a fis' e d cis h a gis fis e16 a' e, gis'
+    a gis32 fis e d cis h a8 e' cis'16 e, e e h' d, d d
+    cis e cis a gis h gis e cis'' e, e e h' d, d d %10
+    cis e cis a a' e cis a fis' a, e' a, d32 cis h a gis fis e d
+    cis8 a r a' fis'16 a, a a e' g,! g g
+    fis a fis d cis e cis a fis'' a, a a e' g, g g
+    fis a fis d d' d, c' d, h' h' a, a' g32 fis e d cis h a g
+    fis16( a) d,8-! c''16 d, d d h' d, d d d' e, e e %15
+    cis' e, e e e' g, g g fis d' d d e, d' e, cis'
+    d cis32 h a g fis e d8 r r4 r8 a\p
+    fis'16( d) d-! d-! g( e) e-! e-! d8 a r a
+    fis'16( d) d-! d-! g( e) e-! e-! fis( a) fis( d) a( fis) d-! c'-!
+    h( d,) a'( d,) g e cis a fis'( a) d,8-! c''16(\f d,) d-! d-! %20
+    h'( d,) d-! d-! d' e, e e cis' e, e e e' g, g g
+    fis d' d d e g, g g fis d' d d e, d' e, cis'
+    d,,32 fis g a h cis d e fis e d cis h a g fis g e fis g a h cis d e d cis h a g fis e
+    fis a h cis d e fis g a g fis e d cis h a h' a g fis e d cis h a16 d a, cis'
+    d,32 fis g a h cis d e fis e d cis h a g fis g e fis g a h cis d e d cis h a g fis e %25
+    fis a h cis d e fis g a g fis e d cis h a h' a g fis e d cis h a16 d' a, cis'
+    d cis32 h a g fis e d8-! d-! d16 cis32 h a g fis e d8 d
+    d4 r r2\fermata \bar "|." %28 finis
+  }
+}
