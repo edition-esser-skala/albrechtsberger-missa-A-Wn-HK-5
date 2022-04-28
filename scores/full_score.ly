@@ -24,7 +24,7 @@
   %       >>
   %       \new Staff {
   %         \set Staff.instrumentName = \markup \center-column { "Tromba II," \transposedTimp "D" "" "A" "" }
-  %         % \transpose c s
+  %         % \transpose c d
   %         \KyrieTimpani
   %       }
   %       \new StaffGroup <<
@@ -75,7 +75,7 @@
   %       \new FiguredBass { \KyrieBassFigures }
   %     >>
   %     \layout { }
-  %     \midi { \tempo 4 = 90 }
+  %     \midi { \tempo 4 = 75 }
   %   }
   % }
   % \bookpart {
@@ -148,7 +148,7 @@
   %       \new FiguredBass { \GloriaBassFigures }
   %     >>
   %     \layout { }
-  %     \midi { \tempo 4 = 90 }
+  %     \midi { \tempo 4 = 80 }
   %   }
   % }
   \bookpart {

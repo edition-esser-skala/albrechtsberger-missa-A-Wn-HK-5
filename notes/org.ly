@@ -15,7 +15,7 @@ KyrieOrgano = {
     r a a a a a \noBreak
     a2.\fermata \bar "||" %10
     \clef treble \time 4/4 \tempoKyrieB
-      \mvTr a''4\fE-\tutti fis'8 d \clef bass d,,8. d16 h'8 fis \noBreak
+      \mvTr a''4\fE-\tutti fis'8 cis \clef bass d,,8. d16 h'8 fis \noBreak
     g g, fis fis' e g16. e32 a8 a,
     d16. d'32 cis16. h32 a16. g32 fis16. e32 d16 e32 fis g a h cis d8 cis
     h16 h, h h h' h, h h cis d32 e fis gis a h cis8 h
@@ -112,7 +112,7 @@ GloriaOrgano = {
     ais ais'32 gis ais16 fis ais fis cis ais h h'32 ais h16 fis h fis d h %15
     fis fis'32 e fis16 cis fis cis ais fis h h'32 ais h16 fis h fis dis h
     e e'32 dis e16 h e h g e a, a'32 gis a16 e a e cis a
-    d d'32 cis d16 a d a fis d gis, gis'32 fis gis16 e gis e h gis
+    d! d'32 cis d16 a d a fis d gis, gis'32 fis gis16 e gis e h gis
     a8 d a' a, d4 r
     r8 h' g a d,16 d'32 cis d16 a d a fis d %20
     c c'32 h c16 a c a fis c h h'32 a h16 g h g d h
