@@ -188,3 +188,109 @@ GradualeViolinoI = {
     d4 r r2\fermata \bar "|." %28 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoCredo
+    r2 \grace { << { d'16 } \\ { \stemUp d, } >> } d''4\f \tuplet 6/4 4 { cis16 h a g fis e }
+    d8 \tuplet 3/2 8 { fis16 e d e[ cis a] a' g e } fis8 \tuplet 3/2 8 { d,16 e fis g[ a h] h a g }
+    \tuplet 3/2 8 { a d cis d[ fis e] fis a gis a[ d d] h d, d a'[ d, d] } \tuplet 6/4 4 { g g, g g g g }
+    fis8 <d a' fis'> q q q \tuplet 3/2 8 { fis16 a d fis[ fis, fis] e' fis, fis }
+    d'8 \tuplet 3/2 8 {  h'16 fis d h[ d d] d fis fis h d, d cis[ a' a] h, a' a h,[ gis' gis] } %5
+    \tuplet 3/2 8 { a[ e cis] a e cis } \tuplet 6/4 4 { a cis' cis cis cis cis h h h h h h cis cis cis cis cis cis }
+    \tuplet 6/4 4 { d d d d d d d d d d d d } \tuplet 3/2 8 { cis[ cis cis] d d d d[ d d] cis cis cis }
+    d8 \tuplet 3/2 8 { fis,16 a d } \tuplet 6/4 4 { fis fis fis fis fis fis g g g g g g a a a a a a }
+    \tuplet 6/4 4 { h h h h h h } \tuplet 3/2 8 { h[ h h] a a a } \tuplet 6/4 4 { h h h h h h fis fis fis fis fis fis }
+    \tuplet 3/2 8 { g[ g g] h h h c[ c c] a a a } \tuplet 6/4 4 { g g g g g g fis fis fis fis fis fis } %10
+    \tuplet 6/4 4 { e e, e e e e gis' gis, gis gis gis gis a a' a a a a h d, d d d d }
+    \tuplet 6/4 4 { cis a a a a a } \tuplet 3/2 8 { a'[ a a] g g g } \tuplet 6/4 4 { fis fis fis fis fis fis e e e e e e }
+    \tuplet 3/2 8 { d d d fis[ fis fis] a a a fis[ fis fis] } h8 \tuplet 3/2 8 { h,16 a h d[ cis d] h a h }
+    \tuplet 3/2 8 { gis gis gis gis'[ gis gis] h h h gis[ gis gis] } a8 \tuplet 3/2 8 { cis,16 h cis e[ d e] cis h cis }
+    \tuplet 3/2 8 { ais ais ais ais'[ ais ais] cis cis cis ais[ ais ais] } \tuplet 6/4 4 { h h h h h h h h h h h h } %15
+    \tuplet 3/2 8 { ais ais ais h[ h h] h h h ais[ ais ais] } h8 \tuplet 3/2 8 { h,16 ais h fis[ eis fis] d cis d }
+    h8 \tuplet 3/2 8 { d'16 d d d[ d d] d d d } fis8-! \tuplet 3/2 8 { fis16 fis fis fis[ fis fis] fis fis fis }
+    a8-! \tuplet 3/2 8 { a16 a a a[ a a a] a a } h8-! \tuplet 3/2 8 { g16 g g g[ g g] fis fis fis }
+    g8 \tuplet 3/2 8 { h16 h h h,[ h h] e e e } \tuplet 6/4 4 { c c c c c c c' c c c c c }
+    \tuplet 6/4 4 { h h h h h h a a a a a a } g8 <g h, d,> q q %20
+    q g, h a16 g d'8 \tuplet 3/2 8 { fis16 fis fis a[ a a] d d d }
+    h8 g, h a16 g d'8 \tuplet 3/2 8 { fis16 fis fis a[ a a] d d d }
+    h8 \tuplet 3/2 8 { d16 d d d[ d d] cis! cis cis } d8 \tuplet 3/2 8 { a16 a a g[ g g] fis fis fis }
+    e8 \tuplet 3/2 8 { a,16 cis a e[ a e] cis e cis } \kneeBeam a8 \tuplet 3/2 8 { g''16 a g e[ fis e] cis d cis }
+    g8 \tuplet 3/2 8 { e'16 e e g[ g g] e e e } \tuplet 6/4 4 { fis fis fis fis fis fis e e e e e e } %25
+    \tuplet 6/4 4 { d d' d d d d d cis h a g fis e h' h h h h h a g fis e d }
+    \tuplet 6/4 4 { cis e e e e e e d cis h a g } \tuplet 3/2 8 { fis[ a d] h e g } fis8 e\trill \noBreak
+    \tuplet 3/2 8 { d16[ a fis] a fis d } a8 cis' <d d,>4 r\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus r8 d16. d32 d,8 d'16. d32 d,8 d' \noBreak
+    r e16. e32 e,8 e'16. e32 e,8 e' %30
+    r fis16. fis32 fis,8 fis'16. fis32 fis,8 fis'
+    r g16. g32 g,8 g'16. g32 g,8 g'
+    r h16. h32 h,8 h'16. h32 h,8 h'
+    r h16. h32 ais8 fis16. fis32 fis,8 fis'
+    r a16. a32 a,8 a'16. a32 a,8 a' %35
+    r gis16. gis32 gis,8 gis'16. gis32 gis,8 gis'
+    r g16. g32 g,8 g'16. g32 g,8 g'
+    r fis16. fis32 fis,8 fis'16. fis32 fis,8 fis'
+    r e16. e32 e,8 e'16. e32 e,8 e'
+    r fis16. fis32 fis,8 fis'16. fis32 e8 cis' %40
+    d a16.\mf a32 a16( fis) e( d) cis( h) a( g)
+    fis8 fis'16. fis32 fis16( d) cis( h) a( g) fis( e)
+    fis( d') gis,( a) fis4 e8.(\trill d32 e)
+    \kneeBeam d8 a''16.\f a32 a,8 a'16. a32 a,8 a'
+    r a16. a32 a,8 a'16. a32 a,8 a' %45
+    r as16. as32 as,8 as'16. as32 as,8 as'
+    r g16. g32 g,8 g'16. g32 g,8 g'
+    r g16. g32 g,8 g'16. g32 g,8 g'
+    <f a,>4-! <e a,>-! r
+    r8 e16. e32 e,8 e'16. e32 f8 d %50
+    r g16. g32 g,8 g'16. g32 f8 f,
+    r f'16. f32 f,8 f'16. f32 f,8 f'
+    r f16. f32 f,8 f'16. f32 e8 cis!
+    d a'16.\mf a32 a16( f) e( d) cis!( b) a( g)
+    f( d') c32([ b a g)] f4 e8.(\trill d32 e) %55
+    d4 r r
+    R2. \noBeam
+    R\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit d4\f fis8-! a-! d16 e32 fis g a h cis d16 d d d \noBreak
+    d, e32 fis g a h cis d16 d d d d, e32 fis g a h cis d16 d d d %60
+    d d d d cis cis cis cis d cis32 h a g fis e d16 d d d
+    h' gis32 a h16 d, cis a'32 gis a16 cis, h a'32 gis a16 a h, gis'32 fis gis16 gis
+    a e cis e a, e cis e a,8 a'-! cis-! e-!
+    g!16 fis32 e d cis h a g16 g' g g fis e32 d cis h a g fis16 fis' fis fis
+    e d32 cis h ais gis fis e16 e' e e d cis32 h a g fis e \kneeBeam d16 h'' h h %65
+    h h h h ais ais ais ais h-! fis-! d-! fis-! h,-! fis-! d-! fis-!
+    h, cis32 d e fis gis ais h16 h' h h h, cis32 dis e fis gis ais h16 h h h
+    h, cis32 dis e fis g a h16 h h h a, h32 cis dis e fis g a16 a a a
+    g, a32 h cis dis e fis g16 g g g g g, g g fis fis' fis fis
+    fis fis, fis fis e cis' cis cis d f, f f f f f f %70
+    e e' e e e e e e fis!( a) a a d, d' d d
+    d d d d cis cis cis cis d cis32 h a g fis e d16 d d d
+    d' c32 h a g fis e d16 d d d d' c32 h a g fis e d16 d d d
+    c' h32 a g fis e d c16 c c c h c32 d e fis g a h16 h, h h
+    a h32 cis d e fis g a16 a, a a a h32 cis dis e fis g a16 a, a a %75
+    g a32 h cis dis e fis g16 g, g g fis fis' fis fis fis fis fis fis
+    e d32 c h a g fis e16 g' g g g e32 fis g16 g fis d32 e fis16 fis
+    e( cis) a,8 a'-! a-! a16 h32 cis d e fis g a16 a a a
+    g fis32 e d cis h a g16 g g g fis g32 a h cis d e fis16 fis fis fis
+    g fis32 e d cis h a g16 g g g fis g32 a h cis d e fis16 fis fis fis %80
+    e d32 cis h a gis fis e16 e' e e d e32 fis gis a h cis d16 d d d
+    cis cis cis cis h h h h a8 e-! e-! e-!
+    e16 e e e e e e e <d e> q q q q q q q
+    <cis e> q q q q q q q <d e> q q q q q q q
+    <cis e> q q q <e, e'> q q q <fis e'> q q q <fis dis'> q q q %85
+    <e e'>4 h''8-! h-! <h h,>16 q q q q q q q
+    <a h,> q q q q q q q <gis h,> q q q q q q q
+    <a h,> q q q q q q q <gis h,> q q q  h, h' h h
+    a a, a a a' a, a a a' a, a a gis' gis, gis gis
+    fis fis'-! a-! fis-! cis-! fis-! a,-! cis-! fis,-! d'-! fis-! d-! a-! d-! fis,-! a-! %90
+    d,4 fis8 a d16 e32 fis g a h cis d16 d d d
+    d, e32 fis g a h cis d16 d d d d, e32 fis g a h cis d16 d d d
+    d d d d cis cis cis cis d cis32 h a g fis e d16 d d d
+    d cis32 h a gis fis e d16 d d d cis-! a'-! cis-! a-! e-! a-! cis,-! e-!
+    a, a'32 h cis16 a a' a, g'! a, fis' d32 e fis16 d a' a, g' a, %95
+    fis' d32 e fis16 d a' a, g' a, fis' d32 e fis16 d e d' e, cis'
+    d d,-! fis-! d-! a-! d-! fis,-! a-! d,32 e fis g a h cis d a h cis d e fis g a
+    d,, e fis g a h cis d a h cis d e fis g a fis e fis g a fis e d e16 d' e, cis'
+    d32 cis h a g fis e d e16 d' e, cis' d,4 r\fermata \bar "|." %99 finis
+  }
+}

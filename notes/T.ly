@@ -341,3 +341,208 @@ GradualeTenoreLyrics = \lyricmode {
   ia, al -- le -- lu --
   ia. %28 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoCredo
+    r2 \mvTr fis,8([\fE^\tuttiE a)] a a
+    a4 a a h
+    a a8 a g a h([ a)]
+    a4 r r8 d, d' cis
+    h4 h h8 a16 a a8([ gis)] %5
+    a4 cis8 cis h h16 h a8. a16
+    a4 h8 d g, a a8. g16
+    fis4 a8 a g g a a16 a
+    g8 h c([ e,)] fis4 h8 h16 h
+    h8 h a c h4. a8 %10
+    gis4 e'8 e e e e4
+    e a,8 a a h16 h h8 a
+    a a a a h4 g
+    r8 h h h cis8. cis16 a4
+    r8 ais([ cis)] ais h4 h8 h %15
+    ais h h([ ais)] h4 r
+    d8. d16 d8 d d4 d
+    d8 d d d d h c([ d)]
+    d4 h8 g c8. c16 a8 d~
+    d e16 e e8 d16([ c)] h4 r %20
+    r2 r8 a a a16 a
+    h8. h16 d4 r8 a a a
+    h fis16 fis g8([ a)] a a h4
+    e, r r8 e' cis([ a)]
+    e cis' e([ cis)] a d d([ cis)] %26
+    d4 r r2
+    R1 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus d4 d d \noBreak
+    cis2 cis4 %30
+    c2 c4
+    h4. h8 h4
+    d4. d8 d4
+    d cis r
+    fis4. fis8 fis fis %35
+    e4. e8 e4
+    e e e
+    d4. d8 d4
+    d d d
+    d4.( fis,8) g([ e)] %40
+    a4 r r
+    R2.*2
+    r4 a a
+    a2 a4 %45
+    as4. as8 as as
+    g4 g g
+    g4. g8 e a
+    a4 a r
+    cis!2 d4 %50
+    b2 a4
+    h2 h4
+    a2 a4
+    a r r
+    R2. %55
+    r4 a\mf a
+    b( d,8[ f)] e([ d)] \noBreak
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit r2 fis'4\fE fis8 fis \noBreak
+    g4 g fis fis8 fis %60
+    e2 fis4 d
+    h a8 a a4( gis)
+    a r r2
+    cis8 cis cis cis16 cis d4 d
+    cis cis8 cis h4 h8 h %65
+    h4( ais) h r
+    r h h8. h16 h8 h
+    h8. h16 h8 h a4 h
+    h h8 h a4 a
+    a a8 cis d4. d8 %70
+    cis4 a8 a a a16 a d8 h
+    a2 a4 a8 a
+    a8. a16 a4 h8 h d8. d16
+    d4 d8 d d d d4
+    d d8 d dis dis dis dis %75
+    h4 c8 c c4( h)
+    h h8 h a a16 a a8. a16
+    a4 r a8 a a a
+    e'2 d8 d d d
+    e e e4 d d8 d %80
+    cis4 cis8 cis h4 h8 e
+    e fis fis([ e16 d)] cis4 r
+    cis cis8 cis d4 d8 d
+    cis8. cis16 cis8 cis d d d8. d16
+    cis4 h cis h8([ a)] %85
+    h4 r e2
+    fis8. fis16 fis8 fis e e e4
+    fis fis8 fis e e cis4
+    cis dis8 dis cis2
+    cis4 r r2 %90
+    r fis4 fis
+    g2 fis4 fis8 fis
+    e e e4 fis d8 d
+    d2 cis4 r
+    r8 cis e([ cis)] d d e cis %95
+    d8. d16 e4 d8 d h([ a)]
+    a4 r d e
+    d e d8 d d([ cis)]
+    d a([ h a)] a4 r\fermata \bar "|." %99 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Cre -- do in
+  u -- num De -- um,
+  Pa -- trem o -- mni -- po -- ten --
+  tem, fa -- cto -- rem
+  coe -- li, coe -- li et ter -- %5
+  rae, vi -- si -- bi -- li -- um o -- mni --
+  um et in -- vi -- si -- bi -- li --
+  um. Et in u -- num Do -- mi -- num
+  Je -- sum Chri -- stum, Fi -- li -- um
+  De -- i u -- ni -- ge -- ni -- %10
+  tum, et ex Pa -- tre na --
+  tum an -- te o -- mni -- a sae -- cu --
+  la. De -- um de De -- o,
+  lu -- men de lu -- mi -- ne,
+  De -- um ve -- rum de %15
+  De -- o ve -- ro,
+  ge -- ni -- tum non fa -- ctum,
+  con -- sub -- stan -- ti -- a -- lem Pa --
+  tri, per quem o -- mni -- a, o --
+  mni -- a fa -- cta sunt. %20
+  Qui pro -- pter nos
+  ho -- mi -- nes et pro -- pter
+  no -- stram sa -- lu -- tem de -- scen --
+  dit, de -- scen --
+  dit, de -- scen -- dit de coe -- %25
+  lis.
+
+  Et in -- car -- %29
+  na -- tus %30
+  est de
+  Spi -- ri -- tu,
+  Spi -- ri -- tu
+  San -- cto
+  ex Ma -- ri -- a %35
+  Vir -- gi -- ne,
+  et ho -- mo
+  fa -- ctus est,
+  et ho -- mo
+  fa -- ctus %40
+  est.
+
+  Cru -- ci -- %44
+  fi -- xus %45
+  e -- ti -- am pro
+  no -- bis sub
+  Pon -- ti -- o Pi --
+  la -- to,
+  pas -- sus, %50
+  pas -- sus
+  et se --
+  pul -- tus
+  est,
+  %55
+  et se --
+  pul -- tus
+  est.
+  Et re -- sur --
+  re -- xit ter -- ti -- a %60
+  di -- e se --
+  cun -- dum Scri -- ptu --
+  ras,
+  et a -- scen -- dit in coe -- lum,
+  se -- det ad dex -- te -- ram %65
+  Pa -- tris.
+  Et i -- te -- rum ven --
+  tu -- rus est cum glo -- ri --
+  a iu -- di -- ca -- re
+  vi -- vos et mor -- tu -- %70
+  os, cu -- ius re -- gni non e -- rit
+  fi -- nis. Et in
+  Spi -- ri -- tum San -- ctum, Do -- mi --
+  num et vi -- vi -- fi -- can --
+  tem, qui ex Pa -- tre Fi -- li -- %75
+  o -- que pro -- ce --
+  dit. Qui cum Pa -- tre et Fi -- li --
+  o si -- mul ad -- o --
+  ra -- tur et con -- glo --
+  ri -- fi -- ca -- tur: qui lo -- %80
+  cu -- tus, lo -- cu -- tus est
+  per Pro -- phe -- tas.
+  Et u -- nam san -- ctam ca --
+  tho -- li -- cam et a -- po -- sto -- li --
+  cam Ec -- cle -- si -- %85
+  am. Con --
+  fi -- te -- or u -- num ba -- ptis --
+  ma in re -- mis -- si -- o --
+  nem pec -- ca -- to --
+  rum. %90
+  Et ex --
+  pe -- cto re -- sur --
+  re -- cti -- o -- nem mor -- tu --
+  o -- rum,
+  et vi -- tam ven -- tu -- ri %95
+  sae -- cu -- li, a -- men, a --
+  men, a -- men,
+  a -- men, a -- men, a --
+  men, a -- men. %99 finis
+}

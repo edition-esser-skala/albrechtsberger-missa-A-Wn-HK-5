@@ -139,3 +139,70 @@ GradualeClarinoII = {
     e4 r r2\fermata \bar "|." %28 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    R1
+    e4\fE g8 g c4 c
+    c r8 c c4 r8 g
+    c e,16 e e8 e e4 r
+    R1 %5
+    g4 r d' r
+    c r r8 c g g16 g
+    e4 r r2
+    R1*3 %11
+    r2 r4 r8 g16 g
+    e4 r8 c'16 c c4 r
+    d r8 d16 d d4 r
+    e r8 d c4 r %15
+    R1*5 %20
+    r2 r8 c16 c c8 c
+    c4 r r8 c16 c c8 c
+    c4 r r2
+    r8 g g g g4 r
+    r8 g g d' c c4 g16 g %25
+    e4 r r2
+    r r4 r8 g \noBreak
+    c, c' g g16 g e4 r\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus R2.*29 \noBreak %57
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit r2 e'4\fE e8 e \noBreak
+    f4 f e e8 e %60
+    d4 d8 d c4 r
+    r d e d8 d
+    d4 r d r
+    d d8 d c4 r
+    d d8 d c4 r %65
+    r2 c4 c8 c
+    c4 r r2
+    R1
+    r2 r4 c
+    c g r2 %70
+    R1
+    c4 g8 g16 g e4 r
+    c r c r
+    c c8 c c4 c8 c
+    c4 r r2 %75
+    R1*2
+    r2 c'4 c8 c
+    d4 d8 d c4 c8 c
+    d2 c4 c8 c %80
+    g4 r r2
+    r8 g e' d d4 r
+    d d8 d d4 r
+    d d8 d d4 r
+    g, r r2 %85
+    R1*5 %90
+    r2 e'4 e8 e
+    f4 f e e8 e
+    d2 c4 r
+    R1
+    r8 d d4 c8 e d8. d16 %95
+    c8 e d d16 d c8 c4 g16 g
+    e4 r c' d
+    c d c r8 g
+    c4 r8 g e4 r\fermata \bar "|." %99 finis
+  }
+}

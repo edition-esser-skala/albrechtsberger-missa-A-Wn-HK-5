@@ -132,3 +132,70 @@ GradualeTrombaI = {
     g4 r r2\fermata \bar "|." %28 finis
   }
 }
+
+CredoTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    R1
+    g'4\fE g8 g16 g c,8 c16 c c8 c
+    c4 r c r
+    r8 g'16 g g8 g g4 r
+    R1 %5
+    g4 r r2
+    g4 r r8 g g g16 g
+    g4 r r2
+    R1*3 %11
+    r2 r4 r8 g
+    g4 r c, r
+    r2 g'4 r
+    e r8 e16 e e4 r %15
+    R1*5 %20
+    r2 r8 c16 c c8 c
+    c4 r r8 c16 c c8 c
+    c4 r r2
+    r8 g' g g g4 r
+    r8 g16 g g8 g c,4 r8 g'16 g %25
+    g4 r r2
+    r r4 r8 g \noBreak
+    g g16 g g8 g g4 r\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus R2.*29 \noBreak %57
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit r2 c4\fE c8 c
+    c4 c8 c c4 c8 c %60
+    g4 g8 g g4 r
+    r g8 g16 g g4 r
+    g r g r
+    g8 g16 g g8 g g4 r
+    e e8 e e4 r %65
+    r2 e4 e8 e
+    e4 r r2
+    R1
+    r2 r4 g
+    g8 g16 g g4 r2 %70
+    R1
+    g8 g16 g g8 g g4 r
+    g r c, r
+    g' g8 g c,4 c8 c
+    c4 r r2 %75
+    R1*2
+    r2 g'4 g8 g
+    g4 g8 g16 g g4 g8 g
+    g4 g8 g16 g g4 g8 g %80
+    g4 r r2
+    g4 r g r
+    g r r2
+    g4 r r2
+    g4 r r2 %85
+    R1*5 %90
+    r2 c4 c8 c
+    c4 c c c8 c
+    g4 g8 g g4 r
+    R1
+    r8 g g g16 g g4 g8 g16 g %95
+    g4 g8 g16 g c,4 r8 g'
+    g4 r g8 g16 g g8 g
+    g g16 g g8 g g4 r8 g16 g
+    g4 r8 g16 g g4 r\fermata \bar "|." %99 finis
+  }
+}

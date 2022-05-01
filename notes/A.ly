@@ -343,3 +343,208 @@ GradualeAltoLyrics = \lyricmode {
   ia, al -- le -- lu --
   ia. %28 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoCredo
+    r2 \mvTr d4\fE^\tuttiE cis8 cis
+    d([ fis)] e([ g)] fis4 g
+    a fis8 d d d d([ cis)]
+    d4 r r2
+    r8 fis fis fis e e16 e fis8([ e16 d)] %5
+    cis4 e8 e e e16 e e8. e16
+    fis4 d8 d cis d d cis
+    d4 fis8 fis e e d d16 d
+    d8 g e4 dis fis8 fis16 fis
+    g8 g e fis e4( dis8.)\trill dis16 %10
+    e4 gis8 gis a a h4
+    a a8 g fis fis16 fis e8. e16
+    fis8 fis a fis d4 d
+    r8 gis h gis e8. e16 e4
+    r8 fis4 fis8 fis4 g8 g %15
+    fis fis fis8.([ e16)] d4 r
+    fis8. fis16 fis8 fis fis4 fis
+    a8 a a a g g g([ fis)]
+    g4 r e8 a fis a16 a
+    a8( g4) fis8 g4 r %20
+    r2 r8 fis a g16 fis
+    g8. g16 g4 r8 fis a g16([ fis)]
+    g8 a16 a g4 fis8 a g([ fis)]
+    e4 r r2
+    r8 e g([ e)] d h' h([ a16 g)] %26
+    fis4 r r2
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 3/4 \tempoEtIncarnatus fis4 fis fis \noBreak
+    g2 g4 %30
+    fis2 fis4
+    g4. g8 g4
+    h4. h8 h4
+    h ais r
+    a4. a8 a a %35
+    gis4. gis8 gis4
+    g g g
+    fis4. fis8 fis4
+    e e e
+    fis4.( d8) e([ cis)] %40
+    d4 r r
+    R2.*2
+    r4 fis fis
+    fis2 fis4 %45
+    f4. f8 f f
+    e4 e e
+    e4. e8 g g
+    f4 e r
+    b'2 a4 %50
+    g2 f4
+    f2 d4
+    d2 cis!4
+    d r r
+    R2. %55
+    r4 f\mf e
+    d2 d4 \noBreak
+    cis!2.\fermata \bar "||"
+    \time 4/4 \tempoEtResurrexit r2 a'4\fE a8 a \noBreak
+    h4 h a a8 a %60
+    g2 fis4 fis
+    e e8 e fis4( e)
+    e r r2
+    a8 a a a16 a a4 a
+    fis fis8 fis fis4 fis8 fis %65
+    g4( fis8[ e)] d4 r
+    r fis fis8. fis16 fis8 fis
+    g8. g16 g8 g a4. a8
+    g4 g8 g g4 fis
+    fis e8 e f4. f8 %70
+    e4 e8 e fis fis16 fis g8 g
+    fis4( e) d fis8 fis
+    fis8. fis16 fis4 g8 g g8. g16
+    a4 a8 a g g g4
+    fis fis8 fis fis fis fis fis %75
+    e4 g8 g fis2
+    g4 g8 g g g16 g fis8. fis16
+    e4 r fis8 fis fis fis
+    g2 fis8 fis fis fis
+    a a a4 a a8 a %80
+    a4 a8 a gis4 h8 h
+    h a a([ gis)] a4 r
+    a a8 a h4 h8 h
+    a8. a16 a8 a h h h8. h16
+    a4 e a4. a8 %85
+    gis4 h gis gis8 gis
+    a4 a8 a gis2
+    a4 a8 a gis gis gis4
+    fis fis8 fis fis4( eis)
+    fis r r2 %90
+    r a4 a
+    h2 a4 a8 a
+    g g g4 fis fis8 fis
+    e2 e4 r
+    r8 a a([ g!)] fis a a g %95
+    fis( a4) g16 g fis8 fis e4\trill
+    d r a' a
+    a a a8 a h([ a16 g)]
+    fis4 e d r\fermata \bar "|." %99 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Cre -- do in
+  u -- num De -- um,
+  Pa -- trem o -- mni -- po -- ten --
+  tem,
+  fa -- cto -- rem coe -- li et ter -- %5
+  rae, vi -- si -- bi -- li -- um o -- mni --
+  um et in -- vi -- si -- bi -- li --
+  um. Et in u -- num Do -- mi -- num
+  Je -- sum Chri -- stum, Fi -- li -- um
+  De -- i u -- ni -- ge -- ni -- %10
+  tum, et ex Pa -- tre na --
+  tum an -- te o -- mni -- a sae -- cu --
+  la. De -- um de De -- o,
+  lu -- men de lu -- mi -- ne,
+  De -- um ve -- rum de %15
+  De -- o ve -- ro,
+  ge -- ni -- tum non fa -- ctum,
+  con -- sub -- stan -- ti -- a -- lem Pa --
+  tri, per quem o -- mni -- a
+  fa -- cta sunt. %20
+  Qui pro -- pter nos
+  ho -- mi -- nes et pro -- pter
+  no -- stram sa -- lu -- tem de -- scen --
+  dit,
+  de -- scen -- dit de coe -- %25
+  lis.
+
+  Et in -- car -- %29
+  na -- tus %30
+  est de
+  Spi -- ri -- tu,
+  Spi -- ri -- tu
+  San -- cto
+  ex Ma -- ri -- a %35
+  Vir -- gi -- ne,
+  et ho -- mo
+  fa -- ctus est,
+  et ho -- mo
+  fa -- ctus %40
+  est.
+
+  Cru -- ci -- %44
+  fi -- xus %45
+  e -- ti -- am pro
+  no -- bis sub
+  Pon -- ti -- o Pi --
+  la -- to,
+  pas -- sus, %50
+  pas -- sus
+  et se --
+  pul -- tus
+  est,
+  %55
+  et se --
+  pul -- tus
+  est.
+  Et re -- sur --
+  re -- xit ter -- ti -- a %60
+  di -- e se --
+  cun -- dum Scri -- ptu --
+  ras,
+  et a -- scen -- dit in coe -- lum,
+  se -- det ad dex -- te -- ram %65
+  Pa -- tris.
+  Et i -- te -- rum ven --
+  tu -- rus est cum glo -- ri --
+  a iu -- di -- ca -- re
+  vi -- vos et mor -- tu -- %70
+  os, cu -- ius re -- gni non e -- rit
+  fi -- nis. Et in
+  Spi -- ri -- tum San -- ctum, Do -- mi --
+  num et vi -- vi -- fi -- can --
+  tem, qui ex Pa -- tre Fi -- li -- %75
+  o -- que pro -- ce --
+  dit. Qui cum Pa -- tre et Fi -- li --
+  o si -- mul ad -- o --
+  ra -- tur et con -- glo --
+  ri -- fi -- ca -- tur: qui lo -- %80
+  cu -- tus, lo -- cu -- tus est
+  per Pro -- phe -- tas.
+  Et u -- nam san -- ctam ca --
+  tho -- li -- cam et a -- po -- sto -- li --
+  cam Ec -- cle -- si -- %85
+  am. Con -- fi -- te -- or
+  u -- num ba -- ptis --
+  ma in re -- mis -- si -- o --
+  nem pec -- ca -- to --
+  rum. %90
+  Et ex --
+  pe -- cto re -- sur --
+  re -- cti -- o -- nem mor -- tu --
+  o -- rum,
+  et vi -- tam ven -- tu -- ri %95
+  sae -- cu -- li, a -- men, a --
+  men, a -- men,
+  a -- men, a -- men, a --
+  men, a -- men. %99 finis
+}

@@ -151,8 +151,81 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \section "3" "Graduale"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           % \transpose c d
+  %           \partCombine \GradualeClarinoI \GradualeClarinoII
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "tr 1"
+  %           % \transpose c d
+  %           \GradualeTrombaI
+  %         }
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = \markup \center-column { "tr 2" "timp" }
+  %         % \transpose c d
+  %         \GradualeTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \GradualeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \GradualeViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \GradualeSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \GradualeSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \GradualeAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \GradualeAltoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \GradualeTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \GradualeTenoreLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \GradualeBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \GradualeBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \GradualeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \GradualeBassFigures }
+  %     >>
+  %     \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "3" "Graduale"
+    \section "4" "Credo"
     \addTocEntry
     \score {
       <<
@@ -160,68 +233,68 @@
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
             % \transpose c d
-            \partCombine \GradualeClarinoI \GradualeClarinoII
+            \partCombine \CredoClarinoI \CredoClarinoII
           >>
           \new Staff {
             \set Staff.instrumentName = "tr 1"
             % \transpose c d
-            \GradualeTrombaI
+            \CredoTrombaI
           }
         >>
         \new Staff {
           \set Staff.instrumentName = \markup \center-column { "tr 2" "timp" }
           % \transpose c d
-          \GradualeTimpani
+          \CredoTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \GradualeViolinoI
+              \CredoViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \GradualeViolinoII
+              \CredoViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \GradualeSoprano }
+            \new Voice = "Soprano" { \dynamicUp \CredoSoprano }
           }
-          \new Lyrics \lyricsto Soprano \GradualeSopranoLyrics
+          \new Lyrics \lyricsto Soprano \CredoSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \GradualeAlto }
+            \new Voice = "Alto" { \dynamicUp \CredoAlto }
           }
-          \new Lyrics \lyricsto Alto \GradualeAltoLyrics
+          \new Lyrics \lyricsto Alto \CredoAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \GradualeTenore }
+            \new Voice = "Tenore" { \dynamicUp \CredoTenore }
           }
-          \new Lyrics \lyricsto Tenore \GradualeTenoreLyrics
+          \new Lyrics \lyricsto Tenore \CredoTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \GradualeBasso }
+            \new Voice = "Basso" { \dynamicUp \CredoBasso }
           }
-          \new Lyrics \lyricsto Basso \GradualeBassoLyrics
+          \new Lyrics \lyricsto Basso \CredoBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \GradualeOrgano
+            \CredoOrgano
           }
         >>
-        \new FiguredBass { \GradualeBassFigures }
+        \new FiguredBass { \CredoBassFigures }
       >>
-      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
-      \midi { \tempo 4 = 60 }
+      \layout { }
+      \midi { \tempo 4 = 80 }
     }
   }
 }
