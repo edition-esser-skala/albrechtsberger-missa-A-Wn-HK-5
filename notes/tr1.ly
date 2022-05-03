@@ -282,3 +282,27 @@ OffertoriumTrombaI = {
     g2 r4\fermata \bar "|." %97 finis
   }
 }
+
+SanctusTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*4
+    g'4\fE g8 g g4 g %5
+    R1*3
+    r2 g4 r
+    R1*2 %11
+    r2 \tempoPleni r
+    g8\fE g16 g g8 g g g16 g g8 g
+    g4 g r2
+    c,8 c16 c c8 c c4 r %15
+    R1
+    g'4 c, r g'8 g16 g
+    g4 r r r8 g
+    g4 r r2
+    R1*2 %21
+    r8 g g g16 g g4 r
+    r8 c, c c c4 c8 c
+    c2 c\fermata \bar "|." %24 finis
+  }
+}

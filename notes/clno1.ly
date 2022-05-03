@@ -292,3 +292,27 @@ OffertoriumClarinoI = {
     c2 r4\fermata \bar "|." %97 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*4
+    e'4\fE e e d %5
+    R1*3
+    \pa d4 d8 d \pd d4 r
+    R1*2 %11
+    r2 \tempoPleni r
+    d4\fE e8 e f4 r8 f
+    f4 e r2
+    \pa c4 c8 c c4 \pd r %15
+    R1
+    d4 e r d8 d16 d
+    c4 r r8 e f d
+    e4 r r2
+    R1*2 %21
+    r8 e d d16 d c4 r
+    r8 e f g a4 g8 g
+    f2 e\fermata \bar "|." %24 finis
+  }
+}

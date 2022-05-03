@@ -398,3 +398,34 @@ OffertoriumViolinoII = {
     q2 r4\fermata \bar "|." %97 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoSanctus
+    d4\p fis a8 g16 fis \appoggiatura a g8 fis16 e
+    fis8 d e fis g fis e a,
+    d fis4 e16 d cis8 d h cis
+    d fis(\cresc g a) d,16. g32\f fis16 e d8 cis\trill
+    d a'~ a16 d fis d d8.(\trill cis32 d) cis4 %5
+    r8 h~ h16 e g e e8.(\trill dis32 e) dis4
+    h16 h h h e e e e e e e e d d d d
+    d d d d cis cis cis cis h h h h d, d d d
+    cis cis cis cis d d d d cis4 r
+    e\p gis a8 e4 d16 cis %10
+    h8 cis a d e r16 e\cresc fis8 gis
+    a16. e32\f d16 cis cis8 h\trill \tempoPleni a a'16. a32 a8 a
+    cis16 a a a d a a a e' e, e e e e e e
+    e e e e d d d d d'8 d,16. d32 d8 d
+    fis16 fis' fis fis g, g' g g a, a' a a a a, a a %15
+    a a a a g g g g fis' fis, fis fis e e' e e
+    e e, e e d d' d d d d d d d d cis cis
+    d fis, g a h cis d e fis8 d,-! e-! cis-!
+    d-! d'-! \tuplet 3/2 8 { d16[ cis d] h a h } h,8 e'-! \tuplet 3/2 8 { e16[ d e] cis h cis }
+    cis,8 fis'-! \tuplet 3/2 8 { fis16[ e fis] d cis d } d,8 g'-! \tuplet 3/2 8 { g16[ fis g] h, a h } %20
+    a8 \tuplet 3/2 8 { fis'16 e fis } g,8 \tuplet 3/2 8 { e'16 d e } fis,8 \tuplet 3/2 8 { d'16 cis d } e,8 \tuplet 3/2 8 { cis'16 h cis }
+    d8 \tuplet 3/2 8 { fis,16 e d } e d' e, cis' d,4 r
+    r8 fis16 fis' g, g' a, a' h, d g h a, d fis a
+    g2 fis\fermata \bar "|." %24 finis
+  }
+}

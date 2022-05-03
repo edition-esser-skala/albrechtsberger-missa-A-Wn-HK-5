@@ -713,3 +713,64 @@ OffertoriumSopranoLyrics = \lyricmode {
   Tri -- ni -- %95
   tas. %96 finis
 }
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*4
+    \mvTr d'4\fE^\tuttiE d d cis %5
+    e e e dis
+    e e e8. e16 d4
+    d cis h d8([ fis)]
+    a,4( gis8) gis a4 r
+    R1*2 %11
+    r2 \tempoPleni r
+    e'4\fE fis8 fis g!4 g,8 g
+    g4 fis r2
+    fis'4 g8 g a4 a,8 a %15
+    a4 g h8. h16 h4
+    e d! d8 d16 d d8([ cis)]
+    d4 r r2
+    r8 d d h r e e cis
+    r fis fis d r d g4~ %20
+    g8 fis4 e d8 d cis
+    d fis e4\trill d8 a h cis
+    d4 d d2~
+    d d\fermata \bar "|." %24 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, san -- ctus, %5
+  san -- ctus, san -- ctus,
+  san -- ctus Do -- mi -- nus
+  De -- us, De -- us
+  Sa -- ba -- oth.
+
+  Ple -- ni sunt coe -- li et %13
+  ter -- ra,
+  ple -- ni sunt coe -- li et %15
+  ter -- ra glo -- ri -- a
+  tu -- a, glo -- ri -- a tu --
+  a.
+  O -- san -- na, o -- san -- na,
+  o -- san -- na, o -- san -- %20
+  na in ex -- cel -- sis,
+  in ex -- cel -- sis, o -- san -- na
+  in ex -- cel --
+  sis. %24 finis
+}
+
+% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
+% O -- san -- na in ex -- cel -- sis.
+%
+%
+% ## Agnus Dei
+%
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.
