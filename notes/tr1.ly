@@ -199,3 +199,86 @@ CredoTrombaI = {
     g4 r8 g16 g g4 r\fermata \bar "|." %99 finis
   }
 }
+
+OffertoriumTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOffertorium
+    r4 g'8.\fE g16 g4
+    r g8. g16 g4
+    r g g8 g
+    c,4 c r
+    r g' g %5
+    r g g
+    r g g
+    r g g
+    r g g8 g
+    g4 g8 g g g %10
+    g4 r r
+    g r g8 g
+    g4 r g8 g
+    c,4 c r
+    r g' g %15
+    r g g
+    r g g
+    r g g8 g
+    g4 r r
+    R2.*4 %23
+    r4 g8. g16 g4
+    R2. %25
+    r4 g8. g16 g4
+    R2.*6 %32
+    g,4 r r
+    g r r
+    g r g'8. g16 %35
+    g4 r r
+    g r r
+    R2.
+    g4 r r
+    R2.*4 %43
+    g4 g8. g16 g4
+    R2. %45
+    g4 g8. g16 g4
+    R2.
+    g4 g8 g g g
+    g4 r r
+    R2.*2 %51
+    r4 g g8 g
+    g4 g g8 g
+    g4 g r
+    R2.*2 %56
+    g4 r r
+    g r g8 g
+    g4 r g8 g
+    c,4 c r %60
+    r g' g
+    r g g
+    r g g
+    r g g8 g
+    g4 r r %65
+    R2.*4
+    g4 g8 g g g %70
+    g4 r g
+    g g8 g g4
+    R2.*4 %76
+    r4 r g
+    g g8 g g g
+    g4 r r
+    r g g8 g %80
+    c,2 r4
+    R2.*2
+    g'4 g8 g g g
+    g4 r r %85
+    r g g8 g
+    c,2 r4
+    R2.*2
+    g'4 g8 g g g %90
+    g4 r r
+    g r r
+    g g8 g g g
+    c,4 r r
+    g' r g8 g %95
+    g4 g8 g g g
+    g2 r4\fermata \bar "|." %97 finis
+  }
+}

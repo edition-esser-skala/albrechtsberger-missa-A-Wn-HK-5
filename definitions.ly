@@ -15,6 +15,7 @@ tempoGraduale = \tempoMarkup "Andante con moto"
 tempoCredo = \tempoMarkup "Allegro moderato"
   tempoEtIncarnatus = \tempoMarkup "Adagio"
   tempoEtResurrexit = \tempoMarkup "Allegretto"
+tempoOffertorium = \tempoMarkup "Andantino"
 
 
 \include "notes/clno1.ly"

@@ -294,3 +294,107 @@ CredoViolinoII = {
     d32 cis h a g fis e d e16 d' e, cis' d,4 r\fermata \bar "|." %99 finis
   }
 }
+
+OffertoriumViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoOffertorium
+    d4~\fE d16 e fis g a h cis d
+    a4~ a16 h cis d e fis g a
+    d,4~ d16 cis d e fis g a fis
+    g4-! fis-! r
+    a,,16( cis e cis) a( cis e cis) a( cis e cis) %5
+    a( d fis d) a( d fis d) a'4
+    a,16( cis e cis) a( cis e cis) a( cis e cis)
+    a( d fis d) a( d fis d) a'4
+    d,16 g' fis e d( fis e d) cis( e d cis)
+    d4 d, d %10
+    d~ d16 e fis g a h cis d
+    a4~ a16 h cis d e fis g a
+    d,4~ d16 cis d e fis g a fis
+    g4-! fis-! r
+    a,,16( cis e cis) a( cis e cis) a( cis e cis) %15
+    a( d fis d) a( d fis d) a'4
+    a,16( cis e cis) a( cis e cis) \once \slurDashed a( cis e cis)
+    a( d fis d) a( d fis d) a'4
+    d,16( fis a fis) d( fis a d) a8-! a-!
+    a a gis gis a4 %20
+    d,16( fis a fis) \once \slurDashed d( fis a d) a8-! a-!
+    a a gis gis a4
+    gis16 e e e a e e e h' e, e e
+    cis' a cis e a gis fis e d cis h a
+    gis e e e a e e e h' e, e e %25
+    cis' a cis e a gis fis e d cis h a
+    fis'4~ fis16 dis h a fis' dis h a
+    gis4-! e16( gis h e) gis,( h e gis)
+    a4-! a,16( cis e a) a,( cis e a)
+    d,4-! d'16( h gis e) \once \slurDashed d'( h gis e) %30
+    cis'4-\parenthesize-! a,,16( cis e a) cis,( e a cis)
+    d4-! d16( h gis e) d'( h gis e)
+    cis'4-! cis16( a e cis) h'( gis d h)
+    a4-! cis'16( a e cis) cis'( a e cis)
+    cis'4-! cis16( a fis cis) cis'( a fis cis) %35
+    fis4-! fis'16( d a fis) fis'( d a fis)
+    fis'4-! fis16( dis a fis) fis'( dis a fis)
+    e4-! e8( cis) d( h)
+    a4~ a16 h cis d e fis gis a
+    e4~ e16 fis gis a h cis d e %40
+    a,4~ a16 gis a h cis d e cis
+    d4-! cis-! r
+    e,16( gis h gis) e( gis h gis) e( gis h gis)
+    e( a cis a) \once \slurDashed e( a cis a) e4-!
+    e16( gis h gis) e( gis h gis) e( gis h gis) %45
+    e( a cis a) e( a cis a) e4-!
+    fis16( d' cis h) a( cis h a) gis( h a gis)
+    a4 a, a
+    a cis16( e d cis) cis( e d cis)
+    d4-! gis16( h a gis) gis( h a gis) %50
+    g4-! e16( g fis e) e( g fis e)
+    fis4-! fis16( a g fis) fis( a g fis)
+    g8 e e' e d d,
+    d4\trill cis a'
+    gis8( a) g( e) fis-! d-! %55
+    a'4 a, r
+    d~ d16 e fis g a h cis d
+    a4~ a16 h cis d e fis g a
+    d,4~ d16 cis d e fis g a fis
+    g4-! fis-! r %60
+    a,,16( cis e cis) a( cis e cis) a( cis e cis)
+    a( d fis d) a( d fis d) a'4-!
+    a,16( cis e cis) a( cis e cis) a( cis e cis)
+    a( d fis d) a( d fis d) a'4
+    d,16( fis a fis) d( fis a d) \parOn a8-\parenthesize-! \parOff a-\parenthesize-! %65
+    a a gis gis a4
+    d,16( fis a fis) d( fis a d) a8-! a-!
+    a a gis gis a4-!
+    cis16 a a a d a a a e' a, a a
+    fis'8 d, fis a d d, %70
+    cis'16 a a a d a a a e' a, a a
+    fis'8 d, fis a d d,
+    h''4~ h16 gis e d h' gis e d
+    cis4-! a16( cis e a) cis,( e a cis)
+    d4-\parenthesize-! d,,16( fis a d) fis,( a d fis) %75
+    g4-! g16( e cis a) \once \slurDashed g'( e cis a)
+    fis'4-! d,16( fis a d) d,( fis a d)
+    cis4-! a'16( e cis a) a'( e cis a)
+    d4-! fis16( d a fis) e'( cis g e)
+    d4-! fis'16( d a fis) fis'( d a fis) %80
+    fis'4-! fis16 d h fis fis' d h fis
+    h4-! h'16 g d h h' g d h
+    h'4-! h16 gis d h h' gis d h
+    a4-! a8( fis) g!( e)
+    fis4-! fis'16 d a fis e'cis g e %85
+    d4 fis'16 d a fis fis' d a fis
+    fis'4-! fis16 d h fis fis' d h fis
+    h4-\parenthesize-! h'16 g d h h' g d h
+    h'4-! h16 gis d h h' gis d h
+    a4-! a8( fis) g!( e) %90
+    fis4-! d8 e16 fis g a h cis
+    d4-\parenthesize-! fis,8 g16 a h cis d e
+    fis4-! d,8 e16 fis g a h cis
+    d8 d4 d d8
+    d4 fis8( d) e( cis) %95
+    d4 <fis a, d,> q
+    q2 r4\fermata \bar "|." %97 finis
+  }
+}

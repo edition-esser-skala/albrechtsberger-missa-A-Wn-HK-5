@@ -603,3 +603,207 @@ CredoBassFigures = \figuremode {
   r <6 5>2 q4
   r4 q2. %99 finis
 }
+
+OffertoriumOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \tempoOffertorium
+    r4 \mvTr fis\fE-\solo d
+    r cis a
+    r fis' d
+    g d r
+    r a cis %5
+    r d fis
+    r a, cis
+    r d fis
+    g a a,
+    d d d %10
+    d-\tutti fis d
+    cis a cis
+    d fis d
+    g d r
+    r a cis %15
+    r d fis
+    r a, cis
+    r d fis
+    r d cis
+    h e a, %20
+    r d cis
+    h e a,
+    e'8 e e e e e
+    a4 a,16-! h-! cis-! d-! e-! fis-! gis-! a-!
+    e8 e e e e e %25
+    a4 a,16-! h-! cis-! d-! e-! fis-! gis-! a-!
+    dis,8 dis dis dis dis dis
+    d d d d d d
+    cis cis' cis, cis' cis, cis'
+    h, h' gis, gis' e, e' %30
+    a, a' cis, cis' a, a'
+    gis, gis' e, e' gis, gis'
+    a,4 r r
+    r a8 a' gis, gis'
+    fis,4 fis'8 fis' e, e' %35
+    d, d d d d d
+    dis dis dis dis dis dis
+    e e e e e, e
+    a4 cis'-\solo a
+    gis e d' %40
+    cis h a
+    d a r
+    r e gis
+    r a cis
+    r e, gis %45
+    r a cis
+    r8 d e4 e,
+    a a, a
+    a8-\tutti a' a a a a
+    a, a' a a a a %50
+    a, a' a a a a
+    a, a' a a a a
+    a, a' cis, a' d, a'
+    a,2 a'4-\unisono
+    gis8( a) g( e) fis-! d-! %55
+    a'4-! a,-! r
+    d fis d
+    cis a cis
+    d fis d
+    g d r %60
+    r a cis
+    r d fis
+    r a, cis
+    r d fis
+    r d cis %65
+    h e a,
+    r d cis
+    h e a,
+    a8 a' a a a a
+    d4 d, r %70
+    a8 a' a a a a
+    d4 d, r
+    gis8 gis gis gis gis gis
+    g g g g g g
+    fis fis fis fis fis fis %75
+    e e e e e e
+    d d d d d d
+    g g g g g g
+    fis4 d r
+    r d8 d' cis, cis' %80
+    h,4 h8 h' a, a'
+    g, g' g g g g
+    gis, gis' gis gis gis gis
+    a a a a a, a
+    d4 r r %85
+    r d8 d' cis, cis'
+    h,4 h8 h' a, a'
+    g, g' g g g g
+    gis, gis' gis gis gis gis
+    a a a a a, a %90
+    d4 d' r
+    d, d' r
+    d,~-\unisono d8 e16 fis g a h cis
+    d8 d h h gis gis
+    a a a a a, a %95
+    d4 d d
+    d2 r4\fermata \bar "|." %97 finis
+  }
+}
+
+OffertoriumBassFigures = \figuremode {
+  r4 <6>2
+  r4 q2
+  r4 q2
+  r2.
+  r4 <7>2 %5
+  r2.
+  r4 <7>2
+  r2.
+  r4 <6 4> <5 3>
+  r2. %10
+  r
+  <6>
+  r
+  r
+  r4 <7>2 %15
+  r2.
+  r4 <7>2
+  r2.
+  r2 <6>4
+  <7> <7 _+>2 %20
+  r <6>4
+  <7> <7 _+>2
+  <5 _+>4 <6 4> <7 5>
+  <3>2.
+  <5 _+>4 <6 4> <7 5> %25
+  <3>2.
+  <6 5>
+  <4+ 2>
+  <6>
+  <6\\>4 <6 5> <7 _+> %30
+  r2.
+  <6 5>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  r2.
+  r4 <3> <\t>
+  <5>2 <\t>4 %35
+  <5>2.
+  <7! 5>
+  <6+ 4>2 <5 _+>4
+  r2.
+  <6>2 \bassFigureExtendersOn q4 %40
+  <6\!>2 <6>4 \bassFigureExtendersOff
+  r2.
+  r4 <7 _+>2
+  r2.
+  r4 <7 _+>2 %45
+  r2.
+  r8 <6> <6 4>4 <5 _+>
+  r2.
+  r
+  <7+ 2> %50
+  <7! 3>
+  <6 4>
+  <7>4 <6 5> <3>8 <\t>
+  <6 4>4 <5 3>2
+  r2. %55
+  r
+  <5>2.
+  <6>
+  r
+  r %60
+  r4 <7>2
+  r2.
+  r4 <7>2
+  r2.
+  r2 <6>4 %65
+  <7> <7 _+>2
+  r2 <6>4
+  <7> <7 _+>2
+  <5 3>4 <6 4> <7! 5>
+  r2. %70
+  <5 3>4 <6 4> <7 5>
+  r2.
+  <6 5>
+  <4 2>
+  <6> %75
+  q
+  r
+  <4 2>
+  <6>
+  r2 <2>4 %80
+  r2 q4
+  r2.
+  <7!>
+  <6+ 4>2 <5 3>4
+  r2. %85
+  r2 <2>4
+  r2 q4
+  r2.
+  <7!>
+  <6+ 4>2 <5 3>4 %90
+  r2.
+  r
+  r
+  <3>4 <5> <7>
+  <6 4>2 <5 3>4 %95
+  r2.
+  r %97 finis
+}

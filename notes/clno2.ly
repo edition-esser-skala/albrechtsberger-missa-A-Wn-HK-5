@@ -206,3 +206,89 @@ CredoClarinoII = {
     c4 r8 g e4 r\fermata \bar "|." %99 finis
   }
 }
+
+OffertoriumClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoOffertorium
+    e2.\fE
+    g
+    c4 c c8 c
+    c4 c r
+    r g g %5
+    r c c
+    r g g
+    r c c
+    r c g8 g
+    e4 e8 e e e %10
+    e4 r r
+    g r g8 g
+    c4 c c8 c
+    c4 c r
+    r g g %15
+    r c c
+    r g g
+    r c c8 c
+    c4 r r
+    R2.*3 %22
+    d2 d4
+    d d r
+    d2 d4 %25
+    d d r
+    R2.*6 %32
+    g,4 r r
+    g r r
+    g r r %35
+    c r r
+    e r r
+    d2 d4
+    d r r
+    R2.*3 %42
+    r4 d d8. d16
+    g,4 r r
+    r d' d8. d16 %45
+    g,4 r r
+    e' d d8. d16
+    d4 d8 d d d
+    d4 r r
+    R2.*2 %51
+    r4 c c
+    d2 c4
+    c g r
+    R2.*2 %56
+    e4 r r
+    g r d'
+    c c c8 c
+    c4 c r %60
+    r g g
+    r c c
+    r g g
+    r c c8 c
+    c4 r r %65
+    R2.*3
+    r4 r g
+    c e,8 e e e %70
+    g4 c d
+    c e,8 e e4
+    R2.*4 %76
+    r4 r c'
+    g g8 g g g
+    c4 r r
+    r c c %80
+    c2 r4
+    R2.*2
+    c2 g8 g
+    e4 r r %85
+    r c' c
+    c2 r4
+    R2.*2
+    c2 g8 g %90
+    e4 r r
+    e r r
+    e e8 e e e
+    e4 c'8 c c c
+    c4 r g %95
+    e e8 e e e
+    e2 r4\fermata \bar "|." %97 finis
+  }
+}

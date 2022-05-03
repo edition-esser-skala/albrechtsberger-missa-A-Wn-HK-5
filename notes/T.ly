@@ -546,3 +546,169 @@ CredoTenoreLyrics = \lyricmode {
   a -- men, a -- men, a --
   men, a -- men. %99 finis
 }
+
+OffertoriumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 3/4 \autoBeamOff \tempoOffertorium
+    R2.*10 %10
+    \mvTr a4\fE^\tuttiE a a
+    a2.
+    a4 a d
+    d d r
+    cis cis a %15
+    a a r
+    cis cis a
+    a a r
+    d2 e4
+    fis( e) e %20
+    d d e
+    fis( e) e
+    r r e
+    e cis r
+    e2 e4 %25
+    e cis r
+    h4. h8 h4
+    h r r
+    e4. e8 e4
+    d4. h8 e4 %30
+    e r a,
+    d4. d8 d4
+    cis cis h
+    a2 a4
+    a2 a4 %35
+    a2 a4
+    c2 c4
+    cis2 h4
+    a r r
+    R2.*9 %48
+    cis4 cis cis
+    d2 d4 %50
+    e2 e4
+    d( a) a
+    a a a
+    a a a
+    gis8([ a g e)] fis([ d)] %55
+    a'4 a, r
+    a' a a
+    a2.
+    a4 a d
+    d d r %60
+    cis cis a
+    a a r
+    cis cis a
+    a a r
+    d2 e4 %65
+    fis( e) e
+    d d e
+    fis( e) e
+    cis( d e)
+    d fis r %70
+    cis( d) e
+    d fis r
+    e4. e8 e4
+    e r r
+    a,4. a8 a4 %75
+    a r a
+    d4. d8 d4
+    cis e e8 e
+    a,4 fis' e
+    d2 d4 %80
+    d2 d4
+    d2 h4
+    h2 h4
+    a2 a4
+    a fis' e %85
+    d2 d4
+    d2 d4
+    d2 h4
+    h2 h4
+    a2 a4 %90
+    a r r
+    R2.*2
+    fis'4 fis fis
+    fis2 e4 %95
+    d r r
+    R2.\fermata \bar "|." %97 finis
+  }
+}
+
+OffertoriumTenoreLyrics = \lyricmode {
+  Te in -- vo -- %11
+  ca --
+  mus, te lau --
+  da -- mus,
+  te ad -- o -- %15
+  ra -- mus,
+  te in -- vo --
+  ca -- mus,
+  te lau --
+  da -- mus, %20
+  te ad -- o --
+  ra -- mus,
+  spes
+  no -- stra,
+  ho -- nor %25
+  no -- ster,
+  li -- be -- ra
+  nos,
+  li -- be -- ra,
+  li -- be -- ra %30
+  nos, vi --
+  vi -- fi -- ca
+  nos, o be --
+  a -- ta
+  Tri -- ni -- %35
+  tas, be --
+  a -- ta
+  Tri -- ni --
+  tas.
+
+  Te in -- vo -- %49
+  ca -- mus, %50
+  te lau --
+  da -- mus,
+  te ad -- o --
+  ra -- mus, te
+  ad -- o -- %55
+  ra -- mus,
+  te in -- vo --
+  ca --
+  mus, te lau --
+  da -- mus, %60
+  te ad -- o --
+  ra -- mus,
+  te in -- vo --
+  ca -- mus,
+  te lau -- %65
+  da -- mus,
+  te ad -- o --
+  ra -- mus,
+  spes __
+  no -- stra, %70
+  ho -- nor
+  no -- ster,
+  li -- be -- ra
+  nos,
+  li -- be -- ra %75
+  nos, vi --
+  vi -- fi -- ca
+  nos, li -- be -- ra
+  nos, o be --
+  a -- ta %80
+  Tri -- ni --
+  tas, be --
+  a -- ta
+  Tri -- ni --
+  tas, o be -- %85
+  a -- ta
+  Tri -- ni --
+  tas, be --
+  a -- ta
+  Tri -- ni -- %90
+  tas,
+
+  be -- a -- ta %94
+  Tri -- ni -- %95
+  tas. %96 finis
+}

@@ -193,3 +193,85 @@ CredoTimpani = {
     c4 r8 g c4 r\fermata \bar "|." %99 finis
   }
 }
+
+OffertoriumTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoOffertorium
+    r4 c8.\fE c16 c4
+    r-\critnote g8. g16 g4
+    r c c8 c
+    c4 c r
+    r g g %5
+    r c c
+    r g g
+    r c c
+    r g g8 g
+    c4 c8 c c c %10
+    c4 r r
+    g r g8 g
+    c4 r c8 c
+    c4 c r
+    r g g %15
+    r c c
+    r g g
+    r c c8 c
+    c4 r r
+    R2.*4 %23
+    r4 g8. g16 g4
+    R2. %25
+    r4 g8. g16 g4
+    R2.*6 %32
+    g4 r r
+    g r r
+    R2. %35
+    c4 r r
+    R2.*2
+    g4 r r
+    R2.*4 %43
+    g4 g8. g16 g4
+    R2. %45
+    g4 g8. g16 g4
+    R2.
+    g4 g8 g g g
+    g4 r r
+    R2.*2 %51
+    r4 c c8 c
+    g4 r c8 c
+    g4 g r
+    R2.*2 %56
+    c4 r r
+    g r g8 g
+    c4 r c8 c
+    c4 c r %60
+    r g g
+    r c c
+    r g g
+    r c c8 c
+    c4 r r %65
+    R2.*4
+    c4 c8 c c c %70
+    g4 r g
+    c c8 c c4
+    R2.*4 %76
+    r4 r c
+    g r g8 g
+    c4 r r
+    c r r %80
+    c r r
+    R2.*2
+    g4 g8 g g g
+    c4 r r %85
+    c r r
+    c r r
+    R2.*2
+    g4 g8 g g g %90
+    c4 r r
+    c r r
+    c c8 c c c
+    c4 r r
+    g r g8 g %95
+    c4 c8 c c c
+    c2 r4\fermata \bar "|." %97 finis
+  }
+}
