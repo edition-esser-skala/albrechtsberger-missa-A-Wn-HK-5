@@ -429,3 +429,54 @@ SanctusViolinoII = {
     g2 fis\fermata \bar "|." %24 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoBenedictus
+    d16(\fE fis) fis-! fis-! fis8 r h,16( d) d-! d-! d8 r
+    h16( d) d-! d-! d8 r h16( g') fis-! g-! e8 cis
+    d16( a) a-! a-! a8 r d16( fis) fis-! fis-! e8 r
+    d16( fis) fis-! fis-! e8 r h16( d) d-! d-! h'8 gis
+    a16( cis,) cis-! cis-! d8 e fis16( d) d-! d-! d8 r %5
+    g'16( h) h-! h-! a8 r g16( h) h-! h-! a8 r
+    e16( g,) g-! g-! e'8 cis d16( a) a-! a-! a8 r
+    d16( fis) fis-! fis-! e8 r d16( fis,) fis-! fis-! e8 r
+    d16( fis) fis-! fis-! e8 d cis16( a') a-! a-! a8 g
+    fis16( a) a-! a-! a8 r g16( h) h-! h-! h8 r %10
+    g16( h) h-! h-! h8 r a16( cis) cis-! cis-! cis8 r
+    a16( cis) cis-! cis-! cis8 r h16( d) d-! d-! d8 r
+    h16( d) d-! d-! cis8 r a16( cis) cis-! cis-! h8 gis
+    e16( e') e-! e-! e8 r fis16( d) d-! d-! h8 gis'
+    a a,\p cis a r d cis a %15
+    r d cis e16( cis) cis( h) h( a) a( gis) gis( h)
+    \tuplet 3/2 8 { a16[ gis a] fis e d } cis8( h) a-! fis'16.\f fis32 dis16. dis32 e16. e32
+    a,16( cis) cis-! cis-! cis8 r d16( fis) fis-! fis-! e8 r
+    d16( fis) fis-! fis-! e8 r d16( d') d-! d-! h8 gis
+    a16( cis,) cis-! cis-! cis8 r h16( d) d-! d-! cis8 r %20
+    h16( d) d-! d-! cis8 r h16( gis') gis-! gis-! gis8 r
+    fis ais h cis d16( d,) d-! d-! d8 r
+    h16( g') g-! g-! fis8 r h,16( h') h-! h-! h8 r
+    cis,16( cis') cis-! cis-! cis8 ais, h16( h') h-! h-! h8 a
+    g g a h e,16( a) a-! a-! a8 g %25
+    fis fis g a d,16( d') d-! d-! d8 r
+    cis d e d d\trill cis r16 cis d e
+    fis( fis,) fis-! fis-! fis8 r h16( g) g-! g-! d'8 r
+    h16( g) g-! g-! d'8 r h16( g) a-! h-! e,8 a
+    \once \slurDashed a,16( a') \parOn a-\parenthesize-! \parOff a-\parenthesize-! a8 r g16( h) h-! h-! h8 r %30
+    g16( h) h-! h-! h8 r a16( cis) cis-! cis-! cis8 r
+    a16( cis) cis-! cis-! cis8 r h16( d) d-! d-! d8 r
+    h16( d) d-! d-! d8 r g16( e) e-! e-! e8 r
+    e16( g) g-! g-! fis8 r d16( fis) fis-! fis-! e8 e,
+    fis16( a) a-! a-! a8 r h16( g) g-! g-! e8-! cis'-! %35
+    d d,\p fis d r g fis d
+    r g fis a16( fis) fis( e) e( d) d( cis) cis( e)
+    \tuplet 3/2 8 { d[ cis d] h' a g } fis8 e\trill d h'16.\f h32 gis16. gis32 a16. a32
+    \tempoOsanna d,8 d' \tuplet 3/2 8 { d16[ cis d] h a h } h,8 e'-\parenthesize-! \tuplet 3/2 8 { e16[ d e] cis h cis }
+    cis,8 fis'-\parenthesize-! \tuplet 3/2 8 { fis16[ e fis] d cis d } d,8 g'-! \tuplet 3/2 8 { g16[ fis g] h, a h } %40
+    a8-! \tuplet 3/2 8 { fis'16 e fis } g,8-! \tuplet 3/2 8 { e'16 d e } fis,8-! \tuplet 3/2 8 { d'16 cis d } e,8 \tuplet 3/2 8 { cis'16 h cis }
+    d8 \tuplet 3/2 8 { fis,16 e d } e d' e, cis' d,4 r
+    r8 fis16 fis' g, g' a, a' h, d g h a, d fis a
+    g2 fis\fermata \bar "|." %44 finis
+  }
+}

@@ -306,3 +306,34 @@ SanctusTrombaI = {
     c2 c\fermata \bar "|." %24 finis
   }
 }
+
+BenedictusTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*4
+    r2 e4\fE g8 e %5
+    c4 g'8 e c4 c
+    r2 g'4 g8 g16 g
+    g4 g8 g16 g g4 g
+    R1
+    e8 e16 e g8 e c4 r %10
+    R1*3
+    g4 r r2
+    g4 r r2 %15
+    R1*2
+    g'4\fE r8 g g4 g8 g16 g
+    g4 g r2
+    R1*8 %27
+    e4 g8 e c4 g'8 e
+    c4 c r2
+    R1*5 %34
+    c8 c16 c c4 r g'8 g16 g %35
+    g4 r r2
+    R1*2
+    \tempoOsanna R1*3 %41
+    r8 g\fE g g16 g g4 r
+    r8 c, c c c4 c8 c
+    c2 c\fermata \bar "|." %44 finis
+  }
+}

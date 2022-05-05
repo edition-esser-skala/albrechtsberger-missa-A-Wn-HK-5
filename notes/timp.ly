@@ -299,3 +299,34 @@ SanctusTimpani = {
     c2\startTrillSpan c\stopTrillSpan\fermata \bar "|." %24 finis
   }
 }
+
+BenedictusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*4
+    r2 c4\fE c8 c16 c %5
+    c4 c8 c16 c c8 c16 c c4
+    r2 c4 r8 g
+    c4 g8 g16 g c4 g
+    R1
+    c8 c16 c c8 c c4 r %10
+    R1*3
+    g4 r r2
+    g4 r r2 %15
+    R1*2
+    g4\fE r8 g c4 g8 g16 g
+    c8 c g4 r2
+    R1*8 %27
+    c4 c8 c16 c c4 c8 c16 c
+    c8 c16 c c4 r2
+    R1*5 %34
+    c8 c16 c c4 r g8 g16 g %35
+    c4 r r2
+    R1*2
+    \tempoOsanna R1*3 %41
+    r8 c\fE g g16 g c4 r
+    r8 c c c c4 c8 c16 c
+    c2\startTrillSpan c\stopTrillSpan\fermata \bar "|." %44 finis
+  }
+}

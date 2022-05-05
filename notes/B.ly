@@ -761,3 +761,86 @@ SanctusBassoLyrics = \lyricmode {
   o -- san -- na in ex --
   cel -- sis. %24 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*6 %6
+    r2 \mvTr d4.\fE^\tuttiE a'8
+    fis4 e8 a fis4 e8 a
+    d, cis16 d e8 d cis a([ h)] cis
+    d4 fis8 fis g4 g %10
+    r gis8 gis a4 a
+    r ais8 ais h4 h8 h
+    gis4 a8 a fis4 gis8 gis
+    a4 cis,8 cis d4 e
+    a, r r2 %15
+    R1*2
+    r8 a' cis([ a)] d4 cis8 a
+    d4 cis8 a h([ a gis e)]
+    a4 r r2 %20
+    R1
+    r2 fis4. h8
+    g4 fis8 h g4 fis8 h
+    e, d16 e fis8 e d h' h([ a!)]
+    g4 r r8 a a([ g)] %25
+    fis d e([ fis)] g4 fis
+    e8 d16 d cis8 d a4 r
+    d4. d8 g4 fis8 d
+    g4 fis8 d e d16 d cis8. cis16
+    d4 fis8 fis g4 g %30
+    r gis8 gis a4 a
+    r ais8 ais h4 d8 h
+    g4 h8 g e4 g8 e
+    cis4 d8 d h4 cis8 cis
+    d4 fis8 fis g4( a8) a, %35
+    d4 r r2
+    R1*2
+    \tempoOsanna r4 r8 g g e r a
+    a fis r h h g r h %40
+    cis d h cis a([ h)] g([ a)]
+    fis d a'4 d, r
+    r8 d e fis g([ h)] fis([ d)]
+    g2 d\fermata \bar "|." %44 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne -- %7
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, Do -- mi --
+  ni, be -- ne -- di -- ctus, %10
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni. %15
+
+  Qui ve -- nit, be -- ne -- %18
+  di -- ctus, qui ve --
+  nit, %20
+
+  be -- ne --
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, qui ve --
+  nit, qui ve -- %25
+  nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, be -- ne -- di -- ctus, %30
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne,
+  no -- mi -- ne Do -- mi -- %35
+  ni.
+
+  O -- san -- na, o -- %39
+  san -- na, o -- san -- na, o -- %40
+  san -- na in ex -- cel -- sis,
+  in ex -- cel -- sis,
+  o -- san -- na in ex --
+  cel -- sis. %44 finis
+}

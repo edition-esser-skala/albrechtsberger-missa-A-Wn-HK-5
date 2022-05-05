@@ -760,3 +760,90 @@ SanctusTenoreLyrics = \lyricmode {
   o -- san -- na in ex --
   cel -- sis. %24 finis
 }
+
+BenedictusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*4
+    r2 \mvTr a4.\fE^\tuttiE d8 %5
+    h4 a8 d h4 a8 d
+    g, fis16 g a8 g fis4 r8 a
+    a4 a8 cis d([ a)] a cis
+    d4 h8([ gis)] a cis([ d)] e
+    a,4 d8 d d([ h)] g4 %10
+    r e'8 e e([ cis)] a4
+    r fis'8 fis fis4 d8 d
+    h4 a8 a a4 d8 d
+    cis4 cis8 cis h4.\trill h8
+    a4 r r2 %15
+    R1*2
+    r8 cis e([ cis)] d4 e8 cis
+    d4 e8 cis h2
+    a4 r8 fis h4 a8 fis %20
+    h4 a8 fis gis([ fis eis)] cis
+    fis4 r8 e'! d h r h
+    h2 h4 r
+    R1
+    r8 e e([ d)] cis4 r %25
+    r8 d d([ c)] h4 a
+    a8 a16 a a8 a a4 r
+    d4. d8 d4 d8 d
+    d4 d8 d h h16 h a8. a16
+    a4 d8 d d([ h)] g4 %30
+    r e'8 e e([ cis)] a4
+    r fis'8 fis fis([ d)] h h
+    h4 d8 h g4 h8 g
+    e([ e')] d d d4 a8 a
+    a4 a8 a h4( a8) a %35
+    a4 r r2
+    R1*2
+    \tempoOsanna r4 r8 h h h r cis
+    cis cis r d d d r d %40
+    e d4 cis h8 h a
+    a d d([ cis)] d4 r
+    r8 a g d' d4 d8([ c)]
+    h2 a\fermata \bar "|." %44 finis
+  }
+}
+
+BenedictusTenoreLyrics = \lyricmode {
+  Be -- ne -- %5
+  di -- ctus, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni, be -- ne -- di -- ctus, %10
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit in
+  no -- mi -- ne Do -- mi --
+  ni. %15
+
+  Qui ve -- nit, be -- ne -- %18
+  di -- ctus, qui ve --
+  nit, qui ve -- nit in %20
+  no -- mi -- ne Do -- mi --
+  ni, qui ve -- nit, qui
+  ve -- nit,
+
+  qui ve -- nit, %25
+  qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni,
+  be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, be -- ne -- di -- ctus, %30
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui ve -- nit, qui
+  ve -- nit in no -- mi -- ne,
+  no -- mi -- ne Do -- mi -- %35
+  ni.
+
+  O -- san -- na, o -- %39
+  san -- na, o -- san -- na, o -- %40
+  san -- na in ex -- cel -- sis,
+  in ex -- cel -- sis,
+  o -- san -- na in ex --
+  cel -- sis. %44 finis
+}

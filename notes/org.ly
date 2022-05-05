@@ -861,3 +861,101 @@ SanctusBassFigures = \figuremode {
   r4 <7>8 <\t> r4 <6>8 <7!>
   r1 %24 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoBenedictus
+    r8 \mvTr d\fE-\tutti fis d r g fis d
+    r g fis d e d cis a
+    r d fis cis r d cis a
+    r d' cis a h a gis e
+    a a, h cis d d16 e fis8 d %5
+    r g fis d r g fis d
+    e d cis a r d fis cis
+    r d cis a r d cis a
+    h a gis e a a h cis
+    d d fis d g g, h g %10
+    r g' gis e a a, cis a
+    r a' ais fis h h, d h
+    gis gis' a a, fis fis' gis e
+    a a, cis a d h e e,
+    a4 r r2 %15
+    r4 r8 \mvTr a\p-\senzaOrg e'4 r8 e
+    a d, e e, fis fis'-!\f dis-! e-!
+    a,-\tutti a' cis a r d cis a
+    r d cis a h a gis e
+    a a, a' fis r h a fis %20
+    r h a fis gis fis eis cis
+    fis e d cis h h d h
+    r e d h r e d h
+    cis h ais fis h h cis d
+    e e fis g a! a, h cis %25
+    d d e fis g g, fis fis'
+    e d cis d a a' a16-! g-! fis-! e-!
+    d8 d fis d r g fis d
+    r g fis d e d cis a
+    d d16 e fis8 d g g, h g %30
+    r g' gis e a a, cis a
+    r a' ais fis h h, d h
+    g g' h g e e g e
+    cis cis' d d, h h' cis, cis'
+    d, d' fis, d g e a a, %35
+    d4 r r2
+    r4 r8 \mvTr d\p-\senzaOrg a'4 r8 a,
+    d g, a a h h'-!\fE gis-! a-!
+    \tempoOsanna d,4 r8 g-\tutti-\colOrg g e r a
+    a fis r h h g r h %40
+    cis d h cis a h g a
+    fis d a' a, d4 r
+    r8 d16 d' e, d' fis, d' g,8 h fis d
+    g2 d\fermata \bar "|." %44 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r2. \bo <[6]>4
+  r \bc q <5> <6>8 <7>
+  <3>4 <\t>8 <6> r4 q
+  r q <5> <6>8 <7 [_+]>
+  r4 <7>8 <5!> r2 %5
+  r4 <6>2 q4
+  <5>8 <\t> <6> <7> <3>4 <\t>8 <6>
+  r4 q2 q4
+  <3>8 <\t> <6> <7 [_+]> r4 <7>8 <5!>
+  r1 %10
+  <6>4 <[\t]>2.
+  <6>4 <[\t]>2.
+  <6 5>2 q4 q
+  <9> <6> <6 5> <_+>
+  r1 %15
+  r
+  r
+  r2. <6>4
+  r q <5>8 <\t> <6> <7 [_+]>
+  r4 <6>2 q4 %20
+  r q <5>8 <\t> \bo <6 [_+ \l]> \bc <7 [5+ _+]>
+  <_!> <4+ 2> <6 4+> <8 6+> <3>2
+  r4 <6>2 q4
+  <5>8 <\t> <6> <7 [_+]> r4 <7>8 <5!>
+  r4 <7>8 <5> r4 <7>8 <5> %25
+  r4 <7>8 <5!> r4 <6>
+  <6\\> <6 5> <6 4>8 <5 3>4.
+  <5>2. \bo <[6]>4
+  r \bc q <3> <6>8 <7>
+  r1 %30
+  <6>4 <\t> <_+>2
+  <6>4 <\t>2.
+  r1
+  <6 5>2 q4 q
+  <9> <6> <6 5>2 %35
+  r1
+  r
+  r
+  r
+  r2.. <6>8 %40
+  <6 5>4 q q q
+  <6> <4>8 <3> r2
+  r4 <7>8 <[\t]> r4 <6>8 <7!>
+  r1 %44 finis
+}
