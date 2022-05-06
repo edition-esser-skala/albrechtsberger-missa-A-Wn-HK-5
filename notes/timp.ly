@@ -4,7 +4,7 @@ KyrieTimpani = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoKyrie
-    r4 c\p c
+    r4^\markup \remark "Tromba II fa pause" c\p c
     r c c
     r g g
     r c c
