@@ -959,3 +959,324 @@ BenedictusBassFigures = \figuremode {
   r4 <7>8 <[\t]> r4 <6>8 <7!>
   r1 %44 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \tempoAgnus
+    r8 \mvTr g'\fE-\tutti g g r e e e
+    r c c cis r d d d
+    \clef treble << { d'' e f d h c d h } \\ { r2 d,8 e f d } >>
+    \clef bass d, e f d c c c c
+    c c c c h h h h %5
+    e,4 r8 \mvTr e'\p-\solo fis g a h
+    c d c d c r r a,~
+    a g a h \mvTr e,\fE-\tutti e' e e
+    ais, ais ais ais h h h h
+    eis eis eis eis fis fis fis fis %10
+    e e e e d d d d
+    cis cis h g' fis fis fis, fis
+    h4 r8 \mvTr h\p-\solo cis d e fis
+    g a g a g r r e~
+    e d e fis \mvTr h,16\f-\tutti h' d cis h a! gis fis %15
+    e gis h a gis e fis gis a a, c' h a g fis e
+    d fis a g fis d e fis g g, g' a h g d h
+    cis e g a b g e cis c es fis a c a fis c
+    b b' b, a g g' gis, gis' a,8 a' a, a \noBreak
+    a2 r\fermata \bar "||" %20
+    \key d \major \time 2/2 \newSpacingSection \tempoDona
+      a'1-! \noBreak
+    h-!
+    gis2-! gis-!
+    a2.-! g4-!
+    fis-! d-! e-! fis-! %25
+    g2-! fis-!
+    e1\trill
+    << {
+      d'
+      fis
+      dis %30
+      e2. d4
+      cis a h cis
+      d2 cis
+      h1\trill
+      s %35
+    } \\ {
+      d,
+      r2 a'
+      h4 a gis fis %30
+      e2 gis
+      a2. g4
+      fis gis a2~
+      a g~
+      \oneVoice g fis4 e %35
+    } >>
+    d2 h
+    e1
+    cis2 a
+    d1
+    e2 d %40
+    g a4 g
+    fis e d2
+    \clef "treble_8" d'2. cis4
+    h2. a4
+    gis2 e %45
+    a1
+    h2 a
+    d e4 d
+    \clef bass a1
+    h %50
+    gis2 gis
+    a2. g4
+    fis d e fis
+    g2 fis
+    e a %55
+    d, g
+    cis, fis
+    h, \clef treble << {
+      fis'''~
+      fis g~
+      g e~ %60
+      e fis4 e
+    } \\ {
+      r2
+      h1
+      cis %60
+      ais
+    } \\ {
+      \voiceFour s2
+      s1
+      s %60
+      r2 fis
+    } >>
+    \clef bass h,1
+    cis
+    ais
+    h %65
+    e,2 fis4 g
+    a a, h cis
+    d2 cis
+    h1
+    a2 cis %70
+    d4 h cis d
+    e1
+    a,
+    \clef "treble_8" h'
+    \clef bass e, %75
+    fis
+    dis2 dis
+    e2. d4
+    cis a h cis
+    d2 cis %80
+    h e
+    a, a'
+    gis cis,
+    fis \clef treble << {
+      cis''~
+      cis d~ %85
+      d h~
+      h cis4 h
+    } \\ {
+      r2
+      fis1 %85
+      gis
+      eis
+    } \\ {
+      \voiceFour s2
+      s1 %85
+      s
+      r2 cis
+    } >>
+    \clef bass fis,1
+    gis
+    eis %90
+    fis4 e d cis
+    h2 cis
+    fis,1
+    \clef treble << {
+      R1
+      d''' %95
+      e
+      cis2 cis
+      d2. c4
+      h cis d
+    } \\ {
+      a1
+      h %95
+      gis2 gis
+      a2. g4
+      fis d e fis
+      g2 fis
+    } >>
+    \clef bass a,1 %100
+    h
+    gis2 gis
+    a2. g4
+    fis d e fis
+    g2 fis %105
+    e1\trillE
+    d2 r
+    d1
+    e
+    cis2 cis %110
+    d2. c4
+    h g e' d
+    cis! a d fis
+    g e a a,
+    r d8 e fis e fis d %115
+    g4 e a a,
+    d2 r
+    r4 a'8 h cis h cis a
+    d4 a d,2
+    r4 a'8 h cis h cis a %120
+    d4 a d,2
+    r4 a'8 h cis h cis a
+    d4 d, fis d
+    g e a a,
+    h h' fis, fis' %125
+    g, g' a, a'
+    d, a'-! fis-! d-!
+    a2-! a'
+    d4 a-! fis-! d-!
+    a2-! a' %130
+    d, d'
+    d, d
+    d1\fermata \bar "|." %133 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r2 <5>
+  <8 6>8 <\t \t>4 <7 5>8 <6 4>4 <5 3>
+  r1
+  <6 4+ _!>8 \bassFigureExtendersOn <6 4+ 8> <6 4+ 6> <6 4+ _!> \bassFigureExtendersOff <6>2
+  <6 4+ 2+>4 <6\\ 5! 3> <6 4> <5 _+> %5
+  r2 <6\\>8 <6> q <6\\>
+  <6> <4+ _!> <6 3> <4+ _!> <6 3>4. <6\\>16 <5>
+  <4+ 2>8 <6> <6 5> <_+> r2
+  <6 5 [_+]> <9+ 4>4 <8 _!>
+  <7 [_+]>2 <6 4>4 <5+ _+> %10
+  <[6+] 4+ _!>2 <6>
+  <6\\ 4 3>4 <8 3>8 <6\\ 5> <6 4>4 <5+ _+>
+  r2 <6\\>8 <6> <6\\> <6\\>
+  <6> <4+ _!> <6> <4+ _!> <6>4. <6\\>16 <5>
+  <[6+] 4+ 2>8 <6> <6\\ 5> <[5+] _+> <[5]>4.. \bassFigureExtendersOn <5>16 %15
+  <7 _+>4.. q16 <_!>4.. q16
+  <7>4.. q16 <9 4>8. q16 <6>4
+  <7->4.. q16 <4+ _->4.. q16
+  <6>8. <6 3>16 \bassFigureExtendersOff <_->8 <7! _!> <6! 4>4 <5 _+>8 <4 2>
+  <5 _+>1 %20
+  r
+  r
+  r
+  r
+  r %25
+  r
+  r
+  r
+  r
+  r %30
+  r
+  r
+  r
+  r
+  <4 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %35
+  <6>1
+  <8 _+>4 \bassFigureExtendersOn <7 _+> <6 _+> <5 _+> \bassFigureExtendersOff
+  <6>2 <\t>4 <7!>
+  <8 3>2. <7! \t>4
+  <5> <6\\>2. %40
+  <6 5>2 <3>4 <\t>
+  <6>1
+  <3>2. <\t>4
+  <8 _+> \bassFigureExtendersOn <7 _+> <6\\ _+> <5 _+> \bassFigureExtendersOff
+  <6>2 <\t _+>4 <7!> %45
+  <8 3>2. <7! \t>4
+  <5> <6\\>2.
+  <6 5>2 <_+>4 <\t>
+  r1
+  <3> %50
+  <6>4 <5> <6 4> <5 3>
+  <3>2. <\t>4
+  <6>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5!>
+  <3> <4+> <6>2
+  <7> q %55
+  q q
+  q <7 _+>
+  r1
+  r
+  r %60
+  r
+  <5>2 <6>
+  <5>1
+  <6 5>2 <\t 4>4 <5 3>
+  <8 3>2 <9 4>4 <10 5> %65
+  <8 3>2 \bassFigureExtendersOn <8 3\!>4 q
+  <8\! 3\!>2 <8 3\!>4 q \bassFigureExtendersOff
+  r2 <[6]>
+  <7> <6\\>
+  r1 %70
+  <6>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <_+>1
+  <6>
+  <9 _+>2 <8 \t>
+  <_+>1 %75
+  <5>
+  <6>2 <\t>4 <5>
+  <_+>2. <\t>4
+  <6>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5!>
+  r2 <6> %80
+  <7> <7 _+>
+  <7+> <6>
+  <7> <7 [5+] _+>
+  r1
+  r %85
+  r
+  r
+  <5>2 <6>
+  <5>1
+  <6 5>2 \bassFigureExtendersOn <6 4>4 <6 _+> %90
+  <3>2. q4 \bassFigureExtendersOff
+  <6\\ 5>2 <[5+] _+>
+  r1
+  r
+  r %95
+  r
+  r
+  r
+  r
+  <4>2 <3> %100
+  r1
+  <6>
+  r2. <\t>4
+  <6>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5!>
+  <3> <4+> <6>2 %105
+  <7> <6>
+  r1
+  <5>2 <6>
+  <_+>1
+  <5+>2 <6> %110
+  <3>2. <\t>4
+  <6!>2 <5>
+  <6 5>1
+  q
+  r %115
+  q
+  r
+  <7>2.. \bassFigureExtendersOn q8
+  <3>2. q4
+  <7>2.. q8 %120
+  <3>2. q4
+  <7>2.. q8
+  <3>2. q4 \bassFigureExtendersOff
+  <6 5>1
+  <5>2 <6> %125
+  <6 5>1
+  r
+  r2 <5>
+  <3>1
+  r2 <5> %130
+  r1
+  r
+  r %133 finis
+}

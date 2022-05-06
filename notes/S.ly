@@ -852,9 +852,235 @@ BenedictusSopranoLyrics = \lyricmode {
   sis. %44 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr d'4.\fE^\tuttiE d8 e4 e8 e
+    e e16 e e8 e d4 d
+    d8([ e)] f([ d)] h([ c)] d([ h)]
+    gis4. gis8 a4 a
+    fis!8. fis16 g8 g g4( fis)\trill %5
+    e r r2
+    R1
+    r2 h'4. h8
+    cis4 cis8 cis cis4 h8 d!
+    d4. cis16([ h)] h4 ais %10
+    cis4. cis8 d4 d
+    e8. e16 d8 d d4( cis)\trill
+    h r r2
+    R1
+    r2 d4. d8 %15
+    d4 d8 d c!4 c8 c
+    c4. c8 c4 h8 h
+    b4. b8 a4 a8 a
+    b8.([ c16] d8) d d4( cis8[ h)] \noBreak
+    cis2 r\fermata \bar "||" %20
+    \key d \major \time 2/2 \newSpacingSection \tempoDona
+      R1*21 %41
+    d1
+    fis
+    dis2 dis
+    e2. d4 %45
+    cis a h cis
+    d2 cis
+    h1\trill
+    a2 r
+    r d %50
+    e4 d cis h
+    a2 cis
+    d2. c4
+    h cis d2~
+    d cis~ %55
+    cis h~
+    h ais
+    h fis'~
+    fis g~
+    g e~ %60
+    e fis4( e)
+    d( h cis d)
+    e2 cis~
+    cis4 e d cis
+    d2 h~ %65
+    h e~
+    e a,~
+    a a
+    a gis
+    a1 %70
+    h
+    gis2 gis
+    a cis~
+    cis h~
+    h e4 d %75
+    cis2 fis~
+    fis4 dis e fis
+    h,2 e~
+    e4 cis d! e
+    fis2 e %80
+    d1
+    cis
+    h
+    a2 cis~
+    cis d~ %85
+    d h~
+    h cis4( h)
+    a( fis gis a)
+    h2 gis~
+    gis4 h a! gis %90
+    fis2 fis'~
+    fis eis
+    fis1
+    R
+    d %95
+    e
+    cis2 cis
+    d2. c4
+    h cis d2~
+    d cis %100
+    d1
+    h2 h
+    e,( a)
+    a r
+    R1*2 %106
+    r2 a~
+    a h~
+    h gis
+    gis a~ %110
+    a fis
+    g!1~
+    g2 fis
+    e1
+    fis2 d'~ %115
+    d cis
+    d r
+    cis e
+    fis d
+    cis e %120
+    fis d
+    cis e
+    fis d
+    d( cis)
+    d d~ %125
+    d cis
+    d r
+    r e
+    fis r
+    r e %130
+    d r
+    R1
+    R\fermata \bar "|." %133 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re, __
+  mi -- se -- re -- re,
+  mi -- se -- re -- re no -- %5
+  bis.
+
+  A -- gnus
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di: %10
+  Mi -- se -- re -- re,
+  mi -- se -- re -- re no --
+  bis.
+
+  A -- gnus %15
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun -- di, pec --
+  ca -- ta mun --
+  di: %20
+
+  Do -- %42
+  na
+  no -- bis
+  pa -- _ %45
+  _ _ _ _
+  _ cem,
+  pa --
+  cem,
+  pa -- %50
+  _ _ _ _
+  cem, pa --
+  _ _
+  _ _ _
+  _ %55
+  _
+  _
+  cem, do --
+  na __
+  no -- %60
+  bis __
+  pa --
+  cem, pa --
+  _ _ _
+  cem, do -- %65
+  na __
+  no --
+  bis
+  pa -- cem,
+  do -- %70
+  na
+  no -- bis
+  pa -- _
+  _
+  _ _ %75
+  cem, pa --
+  _ _ _
+  cem, pa --
+  _ _ _
+  _ cem, %80
+  pa --
+  cem,
+  pa --
+  cem, do --
+  na __ %85
+  no --
+  bis __
+  pa --
+  cem, pa --
+  _ _ _ %90
+  cem, pa --
+  _
+  cem,
+
+  do -- %95
+  na
+  no -- bis
+  pa -- _
+  _ _ _
+  _ %100
+  cem,
+  no -- bis
+  pa --
+  cem,
+
+  do -- %107
+  na __
+  no --
+  bis pa -- %110
+  cem,
+  no --
+  bis
+  pa --
+  cem, pa -- %115
+  _
+  cem,
+  do -- na
+  no -- bis,
+  do -- na %120
+  no -- bis,
+  do -- na
+  no -- bis
+  pa --
+  cem, pa -- %125
+  _
+  cem,
+  pa --
+  cem,
+  pa -- %130
+  cem. %131 finis
+}

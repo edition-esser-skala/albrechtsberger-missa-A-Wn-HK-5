@@ -330,3 +330,50 @@ BenedictusTimpani = {
     c2\startTrillSpan c\stopTrillSpan\fermata \bar "|." %44 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*19 \noBreak %19
+    R1\fermata \bar "||" %20
+    \time 2/2 \tempoDona R1*20 %40
+    r2 g\fE
+    c r
+    R1*24 %66
+    g2 r
+    c g
+    R1
+    g2 r %70
+    R1*8 %78
+    g2 r
+    c g %80
+    R1*22 %102
+    g2 g4 g
+    c2 r
+    R1 %105
+    r2 g
+    c r
+    R1*6 %113
+    r2 g4 g
+    c2 r %115
+    r g4 g
+    c2 r
+    R1
+    r2 c
+    g g4 g %120
+    c2 r
+    g g4 g
+    c2 r
+    r g
+    c r %125
+    r g4 g
+    c2 r
+    r g
+    c r
+    r g %130
+    c c4. c8
+    c2 c
+    c1\fermata \bar "|." %133 finis
+  }
+}
