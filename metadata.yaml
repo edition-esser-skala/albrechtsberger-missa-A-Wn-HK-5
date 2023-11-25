@@ -1,7 +1,9 @@
 composer:
   last: Albrechtsberger
   first: Johann Georg
-title: Missa
+title: Missa Nativitatis Domini Nostri Jesu Christi
+subtitle: including “Paratum cor meum” (gradual, SchAl B.II.6)\\and “Te invocamus” (offertorium, SchAl C.II.6)
+id: SchAl A.I.13
 genre: mass
 scoring: S, A, T, B (coro), 2 clno (D), 2 tr (D), timp (D–A), 2 vl, b, org
 license: cc-by-sa-4.0
@@ -9,6 +11,7 @@ sources:
   A1:
     siglum: A-Wn
     shelfmark: HK.5/I
+    date: 1800-04
     url: https://data.onb.ac.at/rec/AC13915783
     license: public domain
     principal: true
